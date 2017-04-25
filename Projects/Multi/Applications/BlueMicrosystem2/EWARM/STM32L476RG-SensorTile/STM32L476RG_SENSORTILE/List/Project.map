@@ -1,0 +1,2315 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.2.10312/W32 for ARM                16/Apr/2017  19:49:02
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Exe\Project.out
+#    Map file     =  
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\List\Project.map
+#    Command line =  
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\AudioBV_Manager.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\ble_list.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\bluenrg_gap_aci.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\bluenrg_gatt_aci.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\bluenrg_hal_aci.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\bluenrg_itf_template.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\bluenrg_l2cap_aci.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\bluenrg_utils.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\gp_timer.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\hci.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\HTS221_Driver.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\HTS221_Driver_HL.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\HWAdvanceFeatures.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\LPS22HB_Driver.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\LPS22HB_Driver_HL.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\LSM303AGR_ACC_driver.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\LSM303AGR_ACC_driver_HL.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\LSM303AGR_MAG_driver.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\LSM303AGR_MAG_driver_HL.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\LSM6DSM_ACC_GYRO_driver.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\LSM6DSM_ACC_GYRO_driver_HL.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\main.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\MetaDataManager.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\MotionAR_Manager.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\MotionCP_Manager.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\MotionFX_Manager.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\MotionGR_Manager.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\oled.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\osal.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Middlewares\ST\STM32_OSX_BlueVoice_Library\Lib\osxBlueVoice200_CM4F_IAR_ot.a
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Middlewares\ST\STM32_OSX_MotionAR_Library\Lib\osxMotionAR120_CM4F_IAR_ot.a
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Middlewares\ST\STM32_OSX_MotionCP_Library\Lib\osxMotionCP100_CM4F_IAR_ot.a
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Middlewares\ST\STM32_OSX_MotionFX_Library\Lib\osxMotionFX107_CM4_IAR_ot.a
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Middlewares\ST\STM32_OSX_MotionGR_Library\Lib\osxMotionGR100_CM4F_IAR_ot.a
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\OTA.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\sensor_service.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\SensorTile.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\SensorTile_accelero.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\SensorTile_audio_in.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\SensorTile_BlueNRG.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\SensorTile_gg.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\SensorTile_gyro.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\SensorTile_humidity.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\SensorTile_magneto.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\SensorTile_pressure.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\SensorTile_temperature.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\startup_stm32l476xx.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\STC3115_Driver.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_adc.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_adc_ex.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_cortex.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_crc.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_crc_ex.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_dfsdm.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_dma.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_flash.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_flash_ex.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_gpio.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_i2c.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_i2c_ex.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_msp.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_pcd.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_pcd_ex.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_pwr.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_pwr_ex.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_rcc.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_rcc_ex.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_rtc.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_rtc_ex.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_spi.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_spi_ex.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_tim.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_tim_ex.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_uart.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_hal_uart_ex.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_it.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\stm32l4xx_ll_usb.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\system_stm32l4xx.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\TargetPlatform.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\usbd_cdc.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\usbd_cdc_interface.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\usbd_conf.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\usbd_core.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\usbd_ctlreq.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\usbd_desc.o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj\usbd_ioreq.o
+#        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Exe\Project.out
+#        --map
+#        D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\List\Project.map
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.3\arm\config\linker\ST\stm32l476xG.icf" --semihosting --entry
+#        __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__Heap_Handler                = DLMalloc
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x00000000] |
+                [from 0x08000000 to 0x080fffff] { ro };
+"P3":  place in [from 0x20000000 to 0x20017fff] { rw, block CSTACK, block HEAP };
+
+  Section             Kind        Address     Size  Object
+  -------             ----        -------     ----  ------
+"A1":                                        0x188
+  .intvec             ro code  0x08000000    0x188  startup_stm32l476xx.o [1]
+                             - 0x08000188    0x188
+
+"P1":                                      0x272a6
+  .text               ro code  0x08000188   0x98a8  osx_motion_fx.o [8]
+  .text               ro code  0x08009a30     0x4e  FltToDbl.o [4]
+  .text               ro code  0x08009a7e      0xa  xsprout.o [3]
+  .text               ro code  0x08009a88    0x100  sqrt.o [4]
+  .text               ro code  0x08009b88     0x90  DblToFlt.o [4]
+  .text               ro code  0x08009c18     0x2e  DblCmpGe.o [4]
+  .text               ro code  0x08009c48     0x30  I32ToDbl.o [4]
+  .text               ro code  0x08009c78    0x256  DblDiv.o [4]
+  .text               ro code  0x08009ed0     0xe8  DblAdd.o [4]
+  .text               ro code  0x08009fb8    0x180  DblSub.o [4]
+  .text               ro code  0x0800a138    0x1a2  DblMul.o [4]
+  .text               ro code  0x0800a2dc     0x2e  DblCmpLe.o [4]
+  .text               ro code  0x0800a30c     0xf4  atan2.o [4]
+  .text               ro code  0x0800a400     0x44  strcpy_unaligned.o [10]
+  .text               ro code  0x0800a444     0x36  strlen.o [10]
+  .text               ro code  0x0800a47c    0x134  asin.o [4]
+  .text               ro code  0x0800a5b0     0x76  ABImemcpy_unaligned.o [10]
+  .text               ro code  0x0800a628     0x3a  ABImemset48.o [10]
+  .text               ro code  0x0800a664     0x20  DblCmpEq.o [4]
+  .text               ro code  0x0800a684     0x6e  floor.o [4]
+  .text               ro code  0x0800a6f4     0x4c  DblToI32.o [4]
+  .text               ro code  0x0800a740     0x68  fmax.o [4]
+  .text               ro code  0x0800a7a8      0x6  ABImemclr.o [10]
+  .text               ro code  0x0800a7b0    0x2c4  osxLibraryLocker100_CM4F_IAR.o [5]
+  .text               ro code  0x0800aa74      0xc  iarEdom.o [10]
+  .text               ro code  0x0800aa80     0x40  xdtest.o [4]
+  .text               ro code  0x0800aac0    0x1f0  xatan.o [4]
+  .text               ro code  0x0800acb0      0xc  errno.o [3]
+  .text               ro code  0x0800acbc     0x66  ABImemset.o [10]
+  .text               ro code  0x0800ad22      0x2  xtls.o [3]
+  .text               ro code  0x0800ad24   0x2d5c  sensor_service.o [1]
+  .text               ro code  0x0800da80    0x2ae  bluenrg_gatt_aci.o [1]
+  .text               ro code  0x0800dd30   0x15ec  main.o [1]
+  .text               ro code  0x0800f31c     0x60  stm32l4xx_hal.o [1]
+  .text               ro code  0x0800f37c     0x34  sprintf.o [3]
+  .text               ro code  0x0800f3b0     0xcc  SensorTile_gg.o [1]
+  .text               ro code  0x0800f47c    0xfa4  oled.o [1]
+  .text               ro code  0x08010420    0x41c  hci.o [1]
+  .text               ro code  0x0801083c    0x276  bluenrg_gap_aci.o [1]
+  .text               ro code  0x08010ab4    0x148  SensorTile_pressure.o [1]
+  .text               ro code  0x08010bfc    0x114  SensorTile_humidity.o [1]
+  .text               ro code  0x08010d10    0x1f4  SensorTile_temperature.o [1]
+  .text               ro code  0x08010f04    0x504  HWAdvanceFeatures.o [1]
+  .text               ro code  0x08011408    0xa2c  osx_bluevoice.o [5]
+  .text               ro code  0x08011e34    0x83c  stm32l4xx_hal_tim.o [1]
+  .text               ro code  0x08012670    0x250  TargetPlatform.o [1]
+  .text               ro code  0x080128c0    0x190  OTA.o [1]
+  .text               ro code  0x08012a50     0xec  stm32l4xx_hal_cortex.o [1]
+  .text               ro code  0x08012b3c     0x28  strncmp.o [3]
+  .text               ro code  0x08012b64    0x198  xstoul.o [3]
+  .text               ro code  0x08012cfc     0x5c  bluenrg_l2cap_aci.o [1]
+  .text               ro code  0x08012d58     0x50  bluenrg_utils.o [1]
+  .text               ro code  0x08012da8    0x6fc  MetaDataManager.o [1]
+  .text               ro code  0x080134a4    0x22c  MotionFX_Manager.o [1]
+  .text               ro code  0x080136d0     0xbc  MotionAR_Manager.o [1]
+  .text               ro code  0x0801378c     0xbc  MotionCP_Manager.o [1]
+  .text               ro code  0x08013848     0xbc  MotionGR_Manager.o [1]
+  .text               ro code  0x08013904     0xb0  AudioBV_Manager.o [1]
+  .text               ro code  0x080139b4     0x20  osal.o [1]
+  .text               ro code  0x080139d4    0x63a  SensorTile_accelero.o [1]
+  .text               ro code  0x08014010    0x168  xflog.o [4]
+  .text               ro code  0x08014178    0x10e  SensorTile_magneto.o [1]
+  .text               ro code  0x08014288    0x112  SensorTile_gyro.o [1]
+  .text               ro code  0x0801439c    0x304  stm32l4xx_hal_gpio.o [1]
+  .text               ro code  0x080146a0     0x18  trunc.o [4]
+  .text               ro code  0x080146b8    0x8c0  pow.o [4]
+  .text               ro code  0x08014f78    0x3b4  SensorTile_BlueNRG.o [1]
+  .text               ro code  0x0801532c     0x48  bluenrg_hal_aci.o [1]
+  .text               ro code  0x08015374      0x6  ABImemclr4.o [10]
+  .text               ro code  0x0801537c     0x10  stm32l4xx_hal_pwr.o [1]
+  .text               ro code  0x0801538c    0x7a8  stm32l4xx_hal_rcc.o [1]
+  .text               ro code  0x08015b34    0x5dc  stm32l4xx_hal_rcc_ex.o [1]
+  .text               ro code  0x08016110    0x7c4  xprintfsmall.o [3]
+  .text               ro code  0x080168d4    0x810  SensorTile.o [1]
+  .text               ro code  0x080170e4     0xee  ble_list.o [1]
+  .text               ro code  0x080171d2     0x26  gp_timer.o [1]
+  .text               ro code  0x080171f8    0x2f4  LPS22HB_Driver.o [1]
+  .text               ro code  0x080174ec     0xd8  stm32l4xx_hal_msp.o [1]
+  .text               ro code  0x080175c4      0x4  stm32l4xx_hal_tim_ex.o [1]
+  .text               ro code  0x080175c8    0xc00  SensorTile_audio_in.o [1]
+  .text               ro code  0x080181c8    0x2f0  stm32l4xx_hal_flash.o [1]
+  .text               ro code  0x080184b8    0x148  stm32l4xx_hal_flash_ex.o [1]
+  .text               ro code  0x08018600    0x2e0  stm32l4xx_hal_crc.o [1]
+  .text               ro code  0x080188e0     0x14  isxxx.o [3]
+  .text               ro code  0x080188f4     0x14  tolower.o [3]
+  .text               ro code  0x08018908     0x58  memchr.o [10]
+  .text               ro code  0x08018960   0x1d94  osx_motion_ar.o [6]
+  .text               ro code  0x0801a6f4   0x10f8  osx_motion_cp.o [7]
+  .text               ro code  0x0801b7ec   0x1c38  osx_motion_gr.o [9]
+  .text               ro code  0x0801d424     0x26  xfdnorm.o [4]
+  .text               ro code  0x0801d44a     0x7a  xdint.o [4]
+  .text               ro code  0x0801d4c4     0x42  xdnorm.o [4]
+  .text               ro code  0x0801d508     0xb0  xlog.o [4]
+  .text               ro code  0x0801d5b8    0x2c6  xexp.o [4]
+  .text               ro code  0x0801d880    0x456  stm32l4xx_hal_spi.o [1]
+  .text               ro code  0x0801dcd8     0x24  stm32l4xx_hal_pwr_ex.o [1]
+  .text               ro code  0x0801dcfc     0x20  xmbtowc.o [3]
+  .text               ro code  0x0801dd1c     0x16  strchr.o [10]
+  .text               ro code  0x0801dd32      0xa  xmbcurmax.o [3]
+  .text               ro code  0x0801dd3c   0x14f0  dlmalloc.o [3]
+  .text               ro code  0x0801f22c     0x1a  xwctomb.o [3]
+  .text               ro code  0x0801f248    0x938  stm32l4xx_hal_i2c.o [1]
+  .text               ro code  0x0801fb80    0x346  stm32l4xx_hal_dma.o [1]
+  .text               ro code  0x0801fec8    0x590  stm32l4xx_hal_dfsdm.o [1]
+  .text               ro code  0x08020458     0x4a  stm32l4xx_hal_crc_ex.o [1]
+  .text               ro code  0x080204a4     0x24  setlocale.o [3]
+  .text               ro code  0x080204c8     0x14  xlocale_c.o [3]
+  .text               ro code  0x080204dc      0xc  xlocale_c.o [3]
+  .text               ro code  0x080204e8     0xc0  atan.o [4]
+  .text               ro code  0x080205a8    0x114  xdscale.o [4]
+  .text               ro code  0x080206bc     0x60  xencoding_sb.o [3]
+  .text               ro code  0x0802071c      0x6  abort.o [3]
+  .text               ro code  0x08020724     0x2c  xgetmemchunk.o [3]
+  .text               ro code  0x08020750     0x14  exit.o [11]
+  .text               ro code  0x08020764     0x6c  iarttio.o [11]
+  .text               ro code  0x080207d0      0x8  XShttio.o [3]
+  .text               ro code  0x080207d8   0x1a4e  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+  .text               ro code  0x08022228    0xd3c  LSM6DSM_ACC_GYRO_driver.o [1]
+  .text               ro code  0x08022f64    0xa90  STC3115_Driver.o [1]
+  .text               ro code  0x080239f4    0x9c8  LPS22HB_Driver_HL.o [1]
+  .text               ro code  0x080243bc    0x87c  LSM303AGR_ACC_driver_HL.o [1]
+  .text               ro code  0x08024c38    0x4ae  LSM303AGR_ACC_driver.o [1]
+  .text               ro code  0x080250e8    0x132  I64DivMod.o [10]
+  .text               ro code  0x0802521c      0x2  I64DivZer.o [10]
+  .text               ro code  0x08025220    0x506  HTS221_Driver_HL.o [1]
+  .text               ro code  0x08025728    0x438  HTS221_Driver.o [1]
+  .text               ro code  0x08025b60     0x24  printf.o [3]
+  .text               ro code  0x08025b84    0x314  LSM303AGR_MAG_driver_HL.o [1]
+  .text               ro code  0x08025e98    0x18c  LSM303AGR_MAG_driver.o [1]
+  .text               ro code  0x08026024    0x1c4  lz77_init.o [10]
+  .rodata             const    0x080261e8    0x180  osx_motion_fx.o [8]
+  .text               ro code  0x08026368     0xe0  XShHandles.o [3]
+  .text               ro code  0x08026448     0xd6  xfspos.o [3]
+  .text               ro code  0x08026520     0xb0  fflush.o [3]
+  .text               ro code  0x080265d0      0xa  xfgpos.o [3]
+  .text               ro code  0x080265da     0x4c  lseek.o [11]
+  .text               ro code  0x08026626      0x4  xsyslock_nop.o [3]
+  .text               ro code  0x0802662a     0x10  write.o [11]
+  .text               ro code  0x0802663a     0x1e  dwrite.o [11]
+  .text               ro code  0x08026658     0x20  iarwstd.o [11]
+  .text               ro code  0x08026678     0x22  iarwrite.o [11]
+  .text               ro code  0x0802669a     0xb6  xfwprep.o [3]
+  .text               ro code  0x08026750     0x22  fseek.o [3]
+  .text               ro code  0x08026774     0x8c  system_stm32l4xx.o [1]
+  .text               ro code  0x08026800     0x7c  xfofind.o [3]
+  .text               ro code  0x0802687c     0x7a  fclose.o [3]
+  .text               ro code  0x080268f6     0x1a  close.o [11]
+  .text               ro code  0x08026910     0x16  remove.o [11]
+  .text               ro code  0x08026928     0x58  xcloseall.o [3]
+  .text               ro code  0x08026980     0x56  fputc.o [3]
+  .text               ro code  0x080269d8     0x48  stm32l4xx_it.o [1]
+  .text               ro code  0x08026a20     0x40  zero_init3.o [10]
+  .text               ro code  0x08026a60     0x28  data_init.o [10]
+  .text               ro code  0x08026a88     0x22  fpinit_M.o [4]
+  .iar.init_table     const    0x08026aac     0x2c  - Linker created -
+  .text               ro code  0x08026ad8     0x1a  cmain.o [10]
+  .text               ro code  0x08026af2      0x4  low_level_init.o [3]
+  .text               ro code  0x08026af6      0x4  exit.o [3]
+  .text               ro code  0x08026afc      0xe  cexit.o [10]
+  .text               ro code  0x08026b0a     0x16  xprout.o [3]
+  .text               ro code  0x08026b20      0xc  putchar.o [3]
+  .text               ro code  0x08026b2c     0x10  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b3c      0xc  cstartup_M.o [10]
+  .text               ro code  0x08026b48      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b4c      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b50      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b54      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b58      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b5c      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b60      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b64      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b68      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b6c      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b70      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b74      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b78      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b7c      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b80      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b84      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b88      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b8c      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b90      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b94      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b98      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026b9c      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026ba0      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026ba4      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026ba8      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026bac      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026bb0      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026bb4      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026bb8      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026bbc      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026bc0      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026bc4      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026bc8      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026bcc      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026bd0      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026bd4      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026bd8      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026bdc      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026be0      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026be4      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026be8      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026bec      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026bf0      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026bf4      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026bf8      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026bfc      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c00      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c04      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c08      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c0c      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c10      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c14      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c18      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c1c      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c20      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c24      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c28      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c2c      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c30      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c34      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c38      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c3c      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c40      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c44      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c48      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c4c      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c50      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c54      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c58      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c5c      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c60      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c64      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c68      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c6c      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c70      0x4  startup_stm32l476xx.o [1]
+  .text               ro code  0x08026c74      0x0  cstart_closeall.o [10]
+  .rodata             const    0x08026c74      0x0  zero_init3.o [10]
+  .rodata             const    0x08026c74      0x0  lz77_init.o [10]
+  Initializer bytes   const    0x08026c74    0x7ba  <for P3 s0>
+                             - 0x0802742e  0x272a6
+
+"P3", part 1 of 3:                          0x6b8c
+  P3 s0                        0x20000000   0x6b8c  <Init block>
+    .data             inited   0x20000000   0x2cb8  osx_motion_cp.o [7]
+    .data             inited   0x20002cb8    0xf90  SensorTile_audio_in.o [1]
+    .data             inited   0x20003c48    0xef0  osx_motion_fx.o [8]
+    .data             inited   0x20004b38    0x8d0  osx_motion_fx.o [8]
+    .data             inited   0x20005408    0x5e8  osx_motion_ar.o [6]
+    .data             inited   0x200059f0    0x400  osx_motion_fx.o [8]
+    .data             inited   0x20005df0    0x360  main.o [1]
+    .data             inited   0x20006150    0x2c0  oled.o [1]
+    .data             inited   0x20006410    0x234  MetaDataManager.o [1]
+    .data             inited   0x20006644     0x94  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+    __DLIB_PERTHREAD  inited   0x200066d8     0x74  setlocale.o [3]
+    .data             inited   0x2000674c     0x70  sensor_service.o [1]
+    .data             inited   0x200067bc     0x5c  STC3115_Driver.o [1]
+    .data             inited   0x20006818     0x50  LSM303AGR_ACC_driver_HL.o [1]
+    .data             inited   0x20006868     0x50  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+    .data             inited   0x200068b8     0x50  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+    .data             inited   0x20006908     0x48  LSM303AGR_MAG_driver_HL.o [1]
+    .data             inited   0x20006950     0x40  osx_motion_gr.o [9]
+    .data             inited   0x20006990     0x40  xfiles.o [3]
+    .data             inited   0x200069d0     0x40  xfiles.o [3]
+    .data             inited   0x20006a10     0x40  xfiles.o [3]
+    .data             inited   0x20006a50     0x34  HTS221_Driver_HL.o [1]
+    .data             inited   0x20006a84     0x34  HTS221_Driver_HL.o [1]
+    .data             inited   0x20006ab8     0x34  LPS22HB_Driver_HL.o [1]
+    .data             inited   0x20006aec     0x34  LPS22HB_Driver_HL.o [1]
+    .data             inited   0x20006b20     0x20  xfiles.o [3]
+    .data             inited   0x20006b40     0x1c  osx_motion_ar.o [6]
+    .data             inited   0x20006b5c      0xc  OTA.o [1]
+    .data             inited   0x20006b68      0x8  sensor_service.o [1]
+    .data             inited   0x20006b70      0x8  SensorTile.o [1]
+    .data             inited   0x20006b78      0x8  XShttio.o [3]
+    .data             inited   0x20006b80      0x4  oled.o [1]
+    .data             inited   0x20006b84      0x4  system_stm32l4xx.o [1]
+    __DLIB_PERTHREAD  inited   0x20006b88      0x4  errno.o [3]
+                             - 0x20006b8c   0x6b8c
+
+"P3", part 2 of 3:                          0x2784
+  .bss                zero     0x20006b90   0x1000  MetaDataManager.o [1]
+  .bss                zero     0x20007b90    0x56c  osx_motion_gr.o [9]
+  .bss                zero     0x200080fc    0x2cc  hci.o [1]
+  .bss                zero     0x200083c8    0x1ec  osx_motion_gr.o [9]
+  .bss                zero     0x200085b4     0x64  SensorTile_BlueNRG.o [1]
+  .bss                zero     0x20008618    0x1e4  osx_motion_fx.o [8]
+  .bss                zero     0x200087fc    0x1d8  dlmalloc.o [3]
+  .bss                zero     0x200089d4     0xd8  MotionFX_Manager.o [1]
+  .bss                zero     0x20008aac     0xb4  osx_bluevoice.o [5]
+  .bss                zero     0x20008b60     0xb0  SensorTile.o [1]
+  .bss                zero     0x20008c10     0xa8  osxLibraryLocker100_CM4F_IAR.o [5]
+  .bss                zero     0x20008cb8     0xa0  osx_bluevoice.o [5]
+  .bss                zero     0x20008d58     0x9c  osx_motion_gr.o [9]
+  .bss                zero     0x20008df4     0x88  SensorTile_gg.o [1]
+  .bss                zero     0x20008e7c     0x80  XShHandles.o [3]
+  .bss                zero     0x20008efc     0x68  TargetPlatform.o [1]
+  .bss                zero     0x20008f64     0x50  xfiles.o [3]
+  .bss                zero     0x20008fb4     0x50  xfiles.o [3]
+  .bss                zero     0x20009004     0x48  SensorTile_accelero.o [1]
+  .bss                zero     0x2000904c     0x40  SensorTile_temperature.o [1]
+  .bss                zero     0x2000908c     0x30  AudioBV_Manager.o [1]
+  .bss                zero     0x200090bc     0x30  MotionAR_Manager.o [1]
+  .bss                zero     0x200090ec     0x30  MotionCP_Manager.o [1]
+  .bss                zero     0x2000911c     0x30  MotionFX_Manager.o [1]
+  .bss                zero     0x2000914c     0x30  MotionGR_Manager.o [1]
+  .bss                zero     0x2000917c     0x24  SensorTile_gyro.o [1]
+  .bss                zero     0x200091a0     0x24  stm32l4xx_hal_dfsdm.o [1]
+  .bss                zero     0x200091c4     0x20  SensorTile_humidity.o [1]
+  .bss                zero     0x200091e4     0x20  SensorTile_magneto.o [1]
+  .bss                zero     0x20009204     0x20  SensorTile_pressure.o [1]
+  .bss                zero     0x20009224     0x1c  stm32l4xx_hal_flash.o [1]
+  .bss                zero     0x20009240     0x1c  osx_motion_cp.o [7]
+  .bss                zero     0x2000925c     0x18  dlmalloc.o [3]
+  .bss                zero     0x20009274      0xc  main.o [1]
+  .bss                zero     0x20009280      0xc  osx_bluevoice.o [5]
+  .bss                zero     0x2000928c      0xc  osx_motion_ar.o [6]
+  .bss                zero     0x20009298      0xc  osx_motion_cp.o [7]
+  .bss                zero     0x200092a4      0xc  osx_motion_gr.o [9]
+  .bss                zero     0x200092b0      0x8  AudioBV_Manager.o [1]
+  .bss                zero     0x200092b8      0x8  HWAdvanceFeatures.o [1]
+  .bss                zero     0x200092c0      0x8  LPS22HB_Driver_HL.o [1]
+  .bss                zero     0x200092c8      0x8  main.o [1]
+  .bss                zero     0x200092d0      0x8  osx_bluevoice.o [5]
+  .bss                zero     0x200092d8      0x5  AudioBV_Manager.o [1]
+  .bss                zero     0x200092de      0x2  LSM303AGR_ACC_driver_HL.o [1]
+  .bss                zero     0x200092e0      0x4  HTS221_Driver_HL.o [1]
+  .bss                zero     0x200092e4      0x4  stm32l4xx_hal.o [1]
+  .bss                zero     0x200092e8      0x4  TargetPlatform.o [1]
+  .bss                zero     0x200092ec      0x4  TargetPlatform.o [1]
+  .bss                zero     0x200092f0      0x4  osx_bluevoice.o [5]
+  .bss                zero     0x200092f4      0x4  osx_motion_fx.o [8]
+  .bss                zero     0x200092f8      0x4  osx_motion_ar.o [6]
+  .bss                zero     0x200092fc      0x4  osx_motion_cp.o [7]
+  .bss                zero     0x20009300      0x4  osx_motion_gr.o [9]
+  .bss                zero     0x20009304      0x4  osxLibraryLocker100_CM4F_IAR.o [5]
+  .bss                zero     0x20009308      0x4  xgetmemchunk.o [3]
+  .bss                zero     0x2000930c      0x2  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+  .bss                zero     0x2000930e      0x1  MotionAR_Manager.o [1]
+  .bss                zero     0x2000930f      0x1  MotionCP_Manager.o [1]
+  .bss                zero     0x20009310      0x1  MotionGR_Manager.o [1]
+  .bss                zero     0x20009311      0x1  sensor_service.o [1]
+                             - 0x20009312   0x2782
+
+"P3", part 3 of 3:                          0x4000
+  CSTACK                       0x20009318   0x2000  <Block>
+    CSTACK            uninit   0x20009318   0x2000  <Block tail>
+  HEAP                         0x2000b318   0x2000  <Block>
+    HEAP              uninit   0x2000b318   0x2000  <Block tail>
+                             - 0x2000d318   0x4000
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x2782:
+          0x20006b90  0x2782
+
+Copy/lz77 (__iar_lz77_init3)
+    1 source range, total size 0x7ba (7% of destination):
+          0x08026c74   0x7ba
+    1 destination range, total size 0x6b8c:
+          0x20000000  0x6b8c
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                          ro code  ro data  rw data
+    ------                          -------  -------  -------
+D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj: [1]
+    AudioBV_Manager.o                   176                61
+    HTS221_Driver.o                   1 080
+    HTS221_Driver_HL.o                1 286        7      108
+    HWAdvanceFeatures.o               1 284                 8
+    LPS22HB_Driver.o                    756
+    LPS22HB_Driver_HL.o               2 504        8      112
+    LSM303AGR_ACC_driver.o            1 198
+    LSM303AGR_ACC_driver_HL.o         2 172        6       82
+    LSM303AGR_MAG_driver.o              396
+    LSM303AGR_MAG_driver_HL.o           788        5       72
+    LSM6DSM_ACC_GYRO_driver.o         3 388
+    LSM6DSM_ACC_GYRO_driver_HL.o      6 734       22      310
+    MetaDataManager.o                 1 788       40    4 660
+    MotionAR_Manager.o                  188                49
+    MotionCP_Manager.o                  188                49
+    MotionFX_Manager.o                  556               264
+    MotionGR_Manager.o                  188                49
+    OTA.o                               400        1       12
+    STC3115_Driver.o                  2 704        7       92
+    SensorTile.o                      2 064        1      184
+    SensorTile_BlueNRG.o                948               100
+    SensorTile_accelero.o             1 594                72
+    SensorTile_audio_in.o             3 072      286    3 984
+    SensorTile_gg.o                     204               136
+    SensorTile_gyro.o                   274                36
+    SensorTile_humidity.o               276                32
+    SensorTile_magneto.o                270                32
+    SensorTile_pressure.o               328                32
+    SensorTile_temperature.o            500                64
+    TargetPlatform.o                    592               112
+    ble_list.o                          238
+    bluenrg_gap_aci.o                   630
+    bluenrg_gatt_aci.o                  686
+    bluenrg_hal_aci.o                    72
+    bluenrg_l2cap_aci.o                  92
+    bluenrg_utils.o                      80
+    gp_timer.o                           38
+    hci.o                             1 052               716
+    main.o                            5 612       62      884
+    oled.o                            4 004       51      708
+    osal.o                               32
+    sensor_service.o                 11 612        8      121
+    startup_stm32l476xx.o               708
+    stm32l4xx_hal.o                      96                 4
+    stm32l4xx_hal_cortex.o              236
+    stm32l4xx_hal_crc.o                 736
+    stm32l4xx_hal_crc_ex.o               74
+    stm32l4xx_hal_dfsdm.o             1 424                36
+    stm32l4xx_hal_dma.o                 838
+    stm32l4xx_hal_flash.o               752                28
+    stm32l4xx_hal_flash_ex.o            328
+    stm32l4xx_hal_gpio.o                772
+    stm32l4xx_hal_i2c.o               2 360
+    stm32l4xx_hal_msp.o                 216
+    stm32l4xx_hal_pwr.o                  16
+    stm32l4xx_hal_pwr_ex.o               36
+    stm32l4xx_hal_rcc.o               1 960
+    stm32l4xx_hal_rcc_ex.o            1 500
+    stm32l4xx_hal_spi.o               1 110
+    stm32l4xx_hal_tim.o               2 108
+    stm32l4xx_hal_tim_ex.o                4
+    stm32l4xx_it.o                       72
+    system_stm32l4xx.o                  140                 4
+    ---------------------------------------------------------
+    Total:                           77 530      504   13 213
+
+command line: [2]
+    ---------------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    XShHandles.o                        224               128
+    XShttio.o                             8        1        8
+    abort.o                               6
+    dlmalloc.o                        5 360               496
+    errno.o                              12        1        4
+    exit.o                                4
+    fclose.o                            122
+    fflush.o                            176
+    fputc.o                              86
+    fseek.o                              34
+    isxxx.o                              20
+    low_level_init.o                      4
+    printf.o                             36
+    putchar.o                            12
+    setlocale.o                          36        8      116
+    sprintf.o                            52
+    strncmp.o                            40
+    tolower.o                            20
+    xcloseall.o                          88
+    xencoding_sb.o                       96
+    xfgpos.o                             10
+    xfiles.o                                      16      384
+    xfofind.o                           124
+    xfspos.o                            214
+    xfwprep.o                           182
+    xgetmemchunk.o                       44                 4
+    xlocale_c.o                          32
+    xmbcurmax.o                          10
+    xmbtowc.o                            32
+    xprintfsmall.o                    1 988
+    xprout.o                             22
+    xsprout.o                            10
+    xstoul.o                            408
+    xsyslock_nop.o                        4
+    xtls.o                                2
+    xwctomb.o                            26
+    ---------------------------------------------------------
+    Total:                            9 544       26    1 140
+
+m7M_tls.a: [4]
+    DblAdd.o                            232
+    DblCmpEq.o                           32
+    DblCmpGe.o                           46
+    DblCmpLe.o                           46
+    DblDiv.o                            598
+    DblMul.o                            418
+    DblSub.o                            384
+    DblToFlt.o                          144
+    DblToI32.o                           76
+    FltToDbl.o                           78
+    I32ToDbl.o                           48
+    asin.o                              308
+    atan.o                              192
+    atan2.o                             244
+    floor.o                             110
+    fmax.o                              104
+    fpinit_M.o                           34
+    pow.o                             2 240
+    sqrt.o                              256
+    trunc.o                              24
+    xatan.o                             496
+    xdint.o                             122
+    xdnorm.o                             66
+    xdscale.o                           276
+    xdtest.o                             64
+    xexp.o                              710
+    xfdnorm.o                            38
+    xflog.o                             360
+    xlog.o                              176
+    ---------------------------------------------------------
+    Total:                            7 922
+
+osxBlueVoice200_CM4F_IAR_ot.a: [5]
+    osxLibraryLocker100_CM4F_IAR.o      708               172
+    osx_bluevoice.o                   2 604               364
+    ---------------------------------------------------------
+    Total:                            3 312               536
+
+osxMotionAR120_CM4F_IAR_ot.a: [6]
+    osx_motion_ar.o                   7 572      111    1 556
+    ---------------------------------------------------------
+    Total:                            7 572      111    1 556
+
+osxMotionCP100_CM4F_IAR_ot.a: [7]
+    osx_motion_cp.o                   4 344      822   11 492
+    ---------------------------------------------------------
+    Total:                            4 344      822   11 492
+
+osxMotionFX107_CM4_IAR_ot.a: [8]
+    osx_motion_fx.o                  39 080      894    7 592
+    ---------------------------------------------------------
+    Total:                           39 080      894    7 592
+
+osxMotionGR100_CM4F_IAR_ot.a: [9]
+    osx_motion_gr.o                   7 224        5    2 116
+    ---------------------------------------------------------
+    Total:                            7 224        5    2 116
+
+rt7M_tl.a: [10]
+    ABImemclr.o                           6
+    ABImemclr4.o                          6
+    ABImemcpy_unaligned.o               118
+    ABImemset.o                         102
+    ABImemset48.o                        58
+    I64DivMod.o                         306
+    I64DivZer.o                           2
+    cexit.o                              14
+    cmain.o                              26
+    cstart_closeall.o
+    cstartup_M.o                         12
+    data_init.o                          40
+    iarEdom.o                            12
+    lz77_init.o                         452
+    memchr.o                             88
+    strchr.o                             22
+    strcpy_unaligned.o                   68
+    strlen.o                             54
+    zero_init3.o                         64
+    ---------------------------------------------------------
+    Total:                            1 450
+
+shb_l.a: [11]
+    close.o                              26
+    dwrite.o                             30
+    exit.o                               20
+    iarttio.o                           108
+    iarwrite.o                           34
+    iarwstd.o                            32
+    lseek.o                              76
+    remove.o                             22
+    write.o                              16
+    ---------------------------------------------------------
+    Total:                              364
+
+    Gaps                                 64        2        1
+    Linker created                                44   16 384
+-------------------------------------------------------------
+    Grand Total:                    158 406    2 408   54 030
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x08026aac           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08026ad8           --   Gb  - Linker created -
+?main                   0x08026ad9          Code  Gb  cmain.o [10]
+ACCELERO_Data           0x2000902c    0x10  Data  Lc  SensorTile_accelero.o [1]
+ACCELERO_SensorHandle   0x20009004    0x28  Data  Lc  SensorTile_accelero.o [1]
+ADPCM_sample            0x20009280     0x2  Data  Lc  osx_bluevoice.o [5]
+AHBPrescTable           0x080267c0    0x10  Data  Gb  system_stm32l4xx.o [1]
+AccEventCharHandle      0x20006762     0x2  Data  Lc  sensor_service.o [1]
+AccEvent_Notify         0x0800b35b    0x66  Code  Gb  sensor_service.o [1]
+AccGyroMagCharHandle    0x20006760     0x2  Data  Lc  sensor_service.o [1]
+AccGyroMag_Update       0x0800b977   0x104  Code  Gb  sensor_service.o [1]
+ActivityCode            0x2000930e     0x1  Data  Gb  MotionAR_Manager.o [1]
+ActivityRecCharHandle   0x2000676c     0x2  Data  Lc  sensor_service.o [1]
+ActivityRec_Update      0x0800b151    0x60  Code  Gb  sensor_service.o [1]
+ActivityRecognizerFunction
+                        0x08018961   0x9d4  Code  Lc  osx_motion_ar.o [6]
+Add_ConfigW2ST_Service  0x0800ad25    0xbc  Code  Gb  sensor_service.o [1]
+Add_ConsoleW2ST_Service
+                        0x0800ade1   0x122  Code  Gb  sensor_service.o [1]
+Add_HW_SW_ServW2ST_Service
+                        0x0800b3e9   0x58e  Code  Gb  sensor_service.o [1]
+AspecteduwCRCValue      0x20006b60     0x4  Data  Lc  OTA.o [1]
+Attribute_Modified_CB   0x0800c15d   0x660  Code  Gb  sensor_service.o [1]
+AudioBV_License_init    0x08013905    0x2e  Code  Gb  AudioBV_Manager.o [1]
+AudioBV_Manager_init    0x08013933    0x30  Code  Gb  AudioBV_Manager.o [1]
+AudioInVolume           0x20002f24     0x2  Data  Lc  SensorTile_audio_in.o [1]
+AudioLevelCharHandle    0x20006764     0x2  Data  Lc  sensor_service.o [1]
+AudioLevel_Update       0x0800bb81    0x68  Code  Gb  sensor_service.o [1]
+AudioProcess            0x0800e9d1    0x36  Code  Gb  main.o [1]
+AudioProcess_BV         0x08013963    0x34  Code  Gb  AudioBV_Manager.o [1]
+BLUEVOICE_ADPCM_Decode  0x08011abf    0x58  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_ADPCM_Encode  0x08011a47    0x78  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_AddChar       0x080114e5    0x9e  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_AddService    0x080114a7    0x3e  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_AttributeModified_CB
+                        0x080119d3    0x74  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_AudioIN_Buffer
+                        0x20008cb8    0xa0  Data  Lc  osx_bluevoice.o [5]
+BLUEVOICE_AudioIn       0x08011679    0xfa  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_AudioOUT_Buffer
+                        0x20008b08    0x58  Data  Lc  osx_bluevoice.o [5]
+BLUEVOICE_BLESend       0x0801190d    0x90  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_Config        0x200092d8     0x4  Data  Gb  AudioBV_Manager.o [1]
+BLUEVOICE_ConnectionComplete_CB
+                        0x0801199d     0xe  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_DisconnectionComplete_CB
+                        0x080119ab    0x28  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_EnableNotification
+                        0x08011611    0x68  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_GetMode       0x080115b5     0x8  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_GetStatus     0x080115ad     0x8  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_IncTick       0x080115bd    0x54  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_Initialize    0x08011409    0x16  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_IsProfileConfigured
+                        0x0801149f     0x8  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_ParseData     0x08011801    0xb2  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_PrepareBuffOut
+                        0x080118b3    0x5a  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_SendData      0x08011773    0x8e  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_SetConfig     0x0801141f    0x80  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_SetRxHandle   0x08011599    0x14  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_SetTxHandle   0x08011583    0x16  Code  Lc  osx_bluevoice.o [5]
+BLUEVOICE_tx_handle     0x2000674c     0x8  Data  Gb  sensor_service.o [1]
+BNRG_SPI_Init           0x08015113    0x38  Code  Gb  SensorTile_BlueNRG.o [1]
+BSP_ACCELERO_Disable_6D_Orientation_Ext
+                        0x08013f17    0x1c  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Disable_Double_Tap_Detection_Ext
+                        0x08013ea5    0x1c  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Disable_Free_Fall_Detection_Ext
+                        0x08013c79    0x1c  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Disable_Pedometer_Ext
+                        0x08013ceb    0x1c  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Disable_Single_Tap_Detection_Ext
+                        0x08013e4f    0x1c  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Disable_Tilt_Detection_Ext
+                        0x08013da3    0x1c  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Disable_Wake_Up_Detection_Ext
+                        0x08013df9    0x1c  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Enable_6D_Orientation_Ext
+                        0x08013efb    0x1c  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Enable_Double_Tap_Detection_Ext
+                        0x08013e89    0x1c  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Enable_Free_Fall_Detection_Ext
+                        0x08013c5d    0x1c  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Enable_Pedometer_Ext
+                        0x08013ccf    0x1c  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Enable_Single_Tap_Detection_Ext
+                        0x08013e33    0x1c  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Enable_Tilt_Detection_Ext
+                        0x08013d87    0x1c  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Enable_Wake_Up_Detection_Ext
+                        0x08013ddd    0x1c  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Get_6D_Orientation_Status_Ext
+                        0x08013f33    0x1e  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Get_6D_Orientation_XH_Ext
+                        0x08013f6f    0x20  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Get_6D_Orientation_XL_Ext
+                        0x08013f51    0x1e  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Get_6D_Orientation_YH_Ext
+                        0x08013faf    0x20  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Get_6D_Orientation_YL_Ext
+                        0x08013f8f    0x20  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Get_6D_Orientation_ZH_Ext
+                        0x08013fef    0x20  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Get_6D_Orientation_ZL_Ext
+                        0x08013fcf    0x20  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Get_Axes   0x08013b85    0x26  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Get_AxesRaw
+                        0x08013bab    0x26  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Get_Double_Tap_Detection_Status_Ext
+                        0x08013ec1    0x1e  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Get_Free_Fall_Detection_Status_Ext
+                        0x08013c95    0x1e  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Get_ODR    0x08013bf7    0x26  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Get_Pedometer_Status_Ext
+                        0x08013d07    0x1e  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Get_Sensitivity
+                        0x08013bd1    0x26  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Get_Single_Tap_Detection_Status_Ext
+                        0x08013e6b    0x1e  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Get_Step_Count_Ext
+                        0x08013d25    0x1e  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Get_Tilt_Detection_Status_Ext
+                        0x08013dbf    0x1e  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Get_Wake_Up_Detection_Status_Ext
+                        0x08013e15    0x1e  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Init       0x080139d5    0x40  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Reset_Step_Counter_Ext
+                        0x08013d43    0x44  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Sensor_Enable
+                        0x08013b65    0x20  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Set_FS_Value
+                        0x08013c3d    0x20  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Set_Free_Fall_Threshold_Ext
+                        0x08013cb3    0x1c  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Set_ODR_Value
+                        0x08013c1d    0x20  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Set_Tap_Threshold_Ext
+                        0x08013edf    0x1c  Code  Gb  SensorTile_accelero.o [1]
+BSP_AUDIO_IN_ClockConfig
+                        0x0801768d    0x36  Code  Wk  SensorTile_audio_in.o [1]
+BSP_AUDIO_IN_DeInit     0x080175f1    0x9c  Code  Gb  SensorTile_audio_in.o [1]
+BSP_AUDIO_IN_HalfTransfer_CallBack
+                        0x0800ea07    0x2a  Code  Gb  main.o [1]
+BSP_AUDIO_IN_Init       0x080175c9    0x28  Code  Gb  SensorTile_audio_in.o [1]
+BSP_AUDIO_IN_Record     0x080176c5    0x5a  Code  Gb  SensorTile_audio_in.o [1]
+BSP_AUDIO_IN_SetVolume  0x08017753     0xc  Code  Gb  SensorTile_audio_in.o [1]
+BSP_AUDIO_IN_Stop       0x0801771f    0x34  Code  Gb  SensorTile_audio_in.o [1]
+BSP_AUDIO_IN_TransferComplete_CallBack
+                        0x0800ea31    0x2a  Code  Gb  main.o [1]
+BSP_GG_GetCurrent       0x0800f45d    0x10  Code  Gb  SensorTile_gg.o [1]
+BSP_GG_GetSOC           0x0800f44d    0x10  Code  Gb  SensorTile_gg.o [1]
+BSP_GG_GetVoltage       0x0800f46d    0x10  Code  Gb  SensorTile_gg.o [1]
+BSP_GG_Init             0x0800f3b1    0x82  Code  Gb  SensorTile_gg.o [1]
+BSP_GG_Task             0x0800f43d    0x10  Code  Gb  SensorTile_gg.o [1]
+BSP_GYRO_Get_Axes       0x08014375    0x26  Code  Gb  SensorTile_gyro.o [1]
+BSP_GYRO_Init           0x08014289    0x2a  Code  Gb  SensorTile_gyro.o [1]
+BSP_GYRO_Sensor_Enable  0x08014355    0x20  Code  Gb  SensorTile_gyro.o [1]
+BSP_HTS221_HUMIDITY_Init
+                        0x08010c27    0x84  Code  Lc  SensorTile_humidity.o [1]
+BSP_HTS221_TEMPERATURE_Init
+                        0x08010e0b    0x8e  Code  Lc  SensorTile_temperature.o [1]
+BSP_HUMIDITY_Get_Hum    0x08010ceb    0x26  Code  Gb  SensorTile_humidity.o [1]
+BSP_HUMIDITY_Init       0x08010bfd    0x2a  Code  Gb  SensorTile_humidity.o [1]
+BSP_HUMIDITY_IsInitialized
+                        0x08010cd9    0x12  Code  Gb  SensorTile_humidity.o [1]
+BSP_HUMIDITY_Sensor_Enable
+                        0x08010cb9    0x20  Code  Gb  SensorTile_humidity.o [1]
+BSP_LED_Init            0x080168d5    0x76  Code  Gb  SensorTile.o [1]
+BSP_LED_Off             0x08016979    0x2e  Code  Gb  SensorTile.o [1]
+BSP_LED_On              0x0801694b    0x2e  Code  Gb  SensorTile.o [1]
+BSP_LED_Toggle          0x080169a7    0x16  Code  Gb  SensorTile.o [1]
+BSP_LPS22HB_PRESSURE_Init
+                        0x08010adf    0xba  Code  Lc  SensorTile_pressure.o [1]
+BSP_LPS22HB_TEMPERATURE_Init
+                        0x08010d51    0xba  Code  Lc  SensorTile_temperature.o [1]
+BSP_LSM303AGR_ACCELERO_Init
+                        0x08013aaf    0x9c  Code  Lc  SensorTile_accelero.o [1]
+BSP_LSM303AGR_MAGNETO_Init
+                        0x080141a3    0x92  Code  Lc  SensorTile_magneto.o [1]
+BSP_LSM6DSM_ACCELERO_Init
+                        0x08013a15    0x9a  Code  Lc  SensorTile_accelero.o [1]
+BSP_LSM6DSM_GYRO_Init   0x080142b3    0x96  Code  Lc  SensorTile_gyro.o [1]
+BSP_MAGNETO_Get_Axes    0x08014261    0x26  Code  Gb  SensorTile_magneto.o [1]
+BSP_MAGNETO_Init        0x08014179    0x2a  Code  Gb  SensorTile_magneto.o [1]
+BSP_MAGNETO_Sensor_Enable
+                        0x08014241    0x20  Code  Gb  SensorTile_magneto.o [1]
+BSP_PRESSURE_Get_Press  0x08010bd7    0x26  Code  Gb  SensorTile_pressure.o [1]
+BSP_PRESSURE_Init       0x08010ab5    0x2a  Code  Gb  SensorTile_pressure.o [1]
+BSP_PRESSURE_IsInitialized
+                        0x08010bc5    0x12  Code  Gb  SensorTile_pressure.o [1]
+BSP_PRESSURE_Sensor_Enable
+                        0x08010ba5    0x20  Code  Gb  SensorTile_pressure.o [1]
+BSP_TEMPERATURE_Get_Temp
+                        0x08010edf    0x26  Code  Gb  SensorTile_temperature.o [1]
+BSP_TEMPERATURE_Init    0x08010d11    0x40  Code  Gb  SensorTile_temperature.o [1]
+BSP_TEMPERATURE_IsInitialized
+                        0x08010ecd    0x12  Code  Gb  SensorTile_temperature.o [1]
+BSP_TEMPERATURE_Sensor_Enable
+                        0x08010ead    0x20  Code  Gb  SensorTile_temperature.o [1]
+BlueNRG_DataPresent     0x08015173    0x16  Code  Gb  SensorTile_BlueNRG.o [1]
+BlueNRG_RST             0x0801514b    0x28  Code  Gb  SensorTile_BlueNRG.o [1]
+BlueNRG_SPI_Read_All    0x08015189    0xa4  Code  Gb  SensorTile_BlueNRG.o [1]
+BlueNRG_SPI_Write       0x0801522d    0xb2  Code  Gb  SensorTile_BlueNRG.o [1]
+BufferToWrite           0x20006050   0x100  Data  Gb  main.o [1]
+BusFault_Handler        0x080269df     0x2  Code  Gb  stm32l4xx_it.o [1]
+ButtonPressed           0x20006010     0x4  Data  Lc  main.o [1]
+BytesToWrite            0x20005ef8     0x4  Data  Gb  main.o [1]
+CRC_Handle_16           0x08018863    0x7e  Code  Lc  stm32l4xx_hal_crc.o [1]
+CRC_Handle_8            0x0801873d   0x126  Code  Lc  stm32l4xx_hal_crc.o [1]
+CSTACK$$Base            0x20009318           --   Gb  - Linker created -
+CSTACK$$Limit           0x2000b318           --   Gb  - Linker created -
+CalculateStdDev         0x08001221   0x3aa  Code  Lc  osx_motion_fx.o [8]
+Calibration_Goodness    0x080010b1   0x166  Code  Lc  osx_motion_fx.o [8]
+CarryPosRecCharHandle   0x2000676e     0x2  Data  Lc  sensor_service.o [1]
+CarryPosRec_Update      0x0800b1d5    0x60  Code  Gb  sensor_service.o [1]
+CarryPositionCode       0x2000930f     0x1  Data  Gb  MotionCP_Manager.o [1]
+CarryPositionDecisionTree
+                        0x0801a865   0x240  Code  Lc  osx_motion_cp.o [7]
+CarryPositionRecognizerFunction
+                        0x0801aadd   0x870  Code  Lc  osx_motion_cp.o [7]
+Clear_SPI_EXTI_Flag     0x080152eb     0x8  Code  Gb  SensorTile_BlueNRG.o [1]
+ComputeQuaternions      0x0800e71d   0x284  Code  Lc  main.o [1]
+ConfigCharHandle        0x20006774     0x2  Data  Lc  sensor_service.o [1]
+ConfigCommandParsing    0x0800d285   0x558  Code  Lc  sensor_service.o [1]
+ConfigServW2STHandle    0x20006772     0x2  Data  Lc  sensor_service.o [1]
+Config_Notify           0x0800b2dd    0x7e  Code  Gb  sensor_service.o [1]
+ConnectionBleStatus     0x20005eec     0x4  Data  Gb  main.o [1]
+ConsoleW2STHandle       0x20006776     0x2  Data  Lc  sensor_service.o [1]
+DBNOISE_Value_Old_Ch    0x200092ec     0x4  Data  Gb  TargetPlatform.o [1]
+DFSDM_DMAError          0x08020311    0x12  Code  Lc  stm32l4xx_hal_dfsdm.o [1]
+DFSDM_DMARegularConvCplt
+                        0x08020301     0xe  Code  Lc  stm32l4xx_hal_dfsdm.o [1]
+DFSDM_DMARegularHalfConvCplt
+                        0x080202f1     0xe  Code  Lc  stm32l4xx_hal_dfsdm.o [1]
+DFSDM_GetChannelFromInstance
+                        0x08020323    0x54  Code  Lc  stm32l4xx_hal_dfsdm.o [1]
+DFSDM_RegConvStart      0x080203a9    0x5c  Code  Lc  stm32l4xx_hal_dfsdm.o [1]
+DFSDM_RegConvStop       0x08020405    0x54  Code  Lc  stm32l4xx_hal_dfsdm.o [1]
+DFSDMx_FilterMspInit    0x08017f13    0xd2  Code  Lc  SensorTile_audio_in.o [1]
+DFSDMx_Init             0x0801775f   0x7b4  Code  Lc  SensorTile_audio_in.o [1]
+DMA1_Channel4_IRQHandler
+                        0x080269ff     0x6  Code  Gb  stm32l4xx_it.o [1]
+DeInitMics              0x08012787    0x14  Code  Gb  TargetPlatform.o [1]
+DebugConsoleCommandParsing
+                        0x0800c911   0x6bc  Code  Lc  sensor_service.o [1]
+DebugMon_Handler        0x080269e5     0x2  Code  Gb  stm32l4xx_it.o [1]
+DecisionTree3           0x0801a6f5   0x140  Code  Lc  osx_motion_cp.o [7]
+DecisionTreeActivity    0x0801937d   0xd84  Code  Lc  osx_motion_ar.o [6]
+DefaultAccODR           0x200092bc     0x4  Data  Lc  HWAdvanceFeatures.o [1]
+DetectAndroidLGestures  0x0801d041    0xcc  Code  Lc  osx_motion_gr.o [9]
+DetectGlanceGesture     0x0801c649   0x6f2  Code  Lc  osx_motion_gr.o [9]
+DetectPickUpGesture     0x0801b921   0xcfc  Code  Lc  osx_motion_gr.o [9]
+DetectWakeUpGesture     0x0801cd55   0x2ce  Code  Lc  osx_motion_gr.o [9]
+DisableHWDoubleTap      0x080112f3    0x32  Code  Gb  HWAdvanceFeatures.o [1]
+DisableHWFeatures       0x08010f13   0x120  Code  Gb  HWAdvanceFeatures.o [1]
+DisableHWFreeFall       0x08011293    0x32  Code  Gb  HWAdvanceFeatures.o [1]
+DisableHWOrientation6D  0x08011059    0x36  Code  Gb  HWAdvanceFeatures.o [1]
+DisableHWPedometer      0x0801139b    0x32  Code  Gb  HWAdvanceFeatures.o [1]
+DisableHWSingleTap      0x08011347    0x32  Code  Gb  HWAdvanceFeatures.o [1]
+DisableHWTilt           0x080111df    0x32  Code  Gb  HWAdvanceFeatures.o [1]
+DisableHWWakeUp         0x08011233    0x32  Code  Gb  HWAdvanceFeatures.o [1]
+Disable_SPI_IRQ         0x080152e5     0x6  Code  Gb  SensorTile_BlueNRG.o [1]
+ECompassCharHandle      0x2000676a     0x2  Data  Lc  sensor_service.o [1]
+ECompass_Update         0x0800b0bd    0x72  Code  Gb  sensor_service.o [1]
+EXTI2_IRQHandler        0x08026a1b     0x6  Code  Gb  stm32l4xx_it.o [1]
+EXTI9_5_IRQHandler      0x08026a15     0x6  Code  Gb  stm32l4xx_it.o [1]
+EnableHWDoubleTap       0x080112c5    0x2e  Code  Gb  HWAdvanceFeatures.o [1]
+EnableHWFreeFall        0x08011265    0x2e  Code  Gb  HWAdvanceFeatures.o [1]
+EnableHWOrientation6D   0x08011033    0x26  Code  Gb  HWAdvanceFeatures.o [1]
+EnableHWPedometer       0x08011379    0x22  Code  Gb  HWAdvanceFeatures.o [1]
+EnableHWSingleTap       0x08011325    0x22  Code  Gb  HWAdvanceFeatures.o [1]
+EnableHWTilt            0x080111bd    0x22  Code  Gb  HWAdvanceFeatures.o [1]
+EnableHWWakeUp          0x08011211    0x22  Code  Gb  HWAdvanceFeatures.o [1]
+Enable_SPI_IRQ          0x080152df     0x6  Code  Gb  SensorTile_BlueNRG.o [1]
+EnvironmentalCharHandle
+                        0x2000675e     0x2  Data  Lc  sensor_service.o [1]
+EnvironmentalCharSize   0x2000675b     0x1  Data  Lc  sensor_service.o [1]
+Environmental_Update    0x0800baa1    0xb6  Code  Gb  sensor_service.o [1]
+EraseMetaDataManager    0x080132ad     0x4  Code  Gb  MetaDataManager.o [1]
+Error_Handler           0x0800f253     0x2  Code  Gb  main.o [1]
+F6x8                    0x0800fc08   0x228  Data  Gb  oled.o [1]
+F8X16                   0x0800fe30   0x5f0  Data  Gb  oled.o [1]
+FLASH_FlushCaches       0x0801859d    0x50  Code  Gb  stm32l4xx_hal_flash_ex.o [1]
+FLASH_SetErrorCode      0x080183f3    0xae  Code  Lc  stm32l4xx_hal_flash.o [1]
+FLASH_WaitForLastOperation
+                        0x08018377    0x7c  Code  Gb  stm32l4xx_hal_flash.o [1]
+FirstConnectionConfig   0x20005ef4     0x4  Data  Gb  main.o [1]
+ForceReCalibration      0x20005ef0     0x4  Data  Gb  main.o [1]
+GGCharHandle            0x20006766     0x2  Data  Lc  sensor_service.o [1]
+GG_Data                 0x20008e08     0x8  Data  Lc  SensorTile_gg.o [1]
+GG_SensorHandle         0x20008df4    0x14  Data  Lc  SensorTile_gg.o [1]
+GG_Update               0x0800bc05    0xd6  Code  Gb  sensor_service.o [1]
+GG_Update_Oled          0x0800bcfd    0x86  Code  Gb  sensor_service.o [1]
+GPIO_PIN                0x080169bc     0x8  Data  Gb  SensorTile.o [1]
+GPIO_PORT               0x20006b70     0x8  Data  Gb  SensorTile.o [1]
+GR_iNemo_setOrientation_Acc
+                        0x0801d11d   0x108  Code  Lc  osx_motion_gr.o [9]
+GR_rotAcc               0x200092a4     0xc  Data  Lc  osx_motion_gr.o [9]
+GYRO_Data               0x20009190     0x8  Data  Lc  SensorTile_gyro.o [1]
+GYRO_SensorHandle       0x2000917c    0x14  Data  Lc  SensorTile_gyro.o [1]
+GestureRecCharHandle    0x20006770     0x2  Data  Lc  sensor_service.o [1]
+GestureRec_Update       0x0800b259    0x60  Code  Gb  sensor_service.o [1]
+GestureRecognitionCode  0x20009310     0x1  Data  Gb  MotionGR_Manager.o [1]
+GetHWOrientation6D      0x0801108f   0x12e  Code  Gb  HWAdvanceFeatures.o [1]
+GetNewBufferIndex2      0x0801b7ed   0x134  Code  Lc  osx_motion_gr.o [9]
+GetStepHWPedometer      0x080113dd    0x20  Code  Gb  HWAdvanceFeatures.o [1]
+HAL_CRCEx_Polynomial_Set
+                        0x08020459    0x4a  Code  Gb  stm32l4xx_hal_crc_ex.o [1]
+HAL_CRC_Calculate       0x080186ad    0x8a  Code  Gb  stm32l4xx_hal_crc.o [1]
+HAL_CRC_DeInit          0x08018679    0x34  Code  Gb  stm32l4xx_hal_crc.o [1]
+HAL_CRC_GetState        0x08018737     0x4  Code  Gb  stm32l4xx_hal_crc.o [1]
+HAL_CRC_Init            0x08018601    0x72  Code  Gb  stm32l4xx_hal_crc.o [1]
+HAL_CRC_MspDeInit       0x08017597    0x14  Code  Gb  stm32l4xx_hal_msp.o [1]
+HAL_CRC_MspInit         0x0801757d    0x1a  Code  Gb  stm32l4xx_hal_msp.o [1]
+HAL_DFSDM_ChannelDeInit
+                        0x0801ffad   0x10c  Code  Gb  stm32l4xx_hal_dfsdm.o [1]
+HAL_DFSDM_ChannelGetState
+                        0x080200bd     0x6  Code  Gb  stm32l4xx_hal_dfsdm.o [1]
+HAL_DFSDM_ChannelInit   0x0801fec9    0xe4  Code  Gb  stm32l4xx_hal_dfsdm.o [1]
+HAL_DFSDM_ChannelMspDeInit
+                        0x080200bb     0x2  Code  Wk  stm32l4xx_hal_dfsdm.o [1]
+HAL_DFSDM_ChannelMspInit
+                        0x080200b9     0x2  Code  Wk  stm32l4xx_hal_dfsdm.o [1]
+HAL_DFSDM_FilterConfigRegChannel
+                        0x080201cb    0x44  Code  Gb  stm32l4xx_hal_dfsdm.o [1]
+HAL_DFSDM_FilterDeInit  0x080201a5    0x22  Code  Gb  stm32l4xx_hal_dfsdm.o [1]
+HAL_DFSDM_FilterErrorCallback
+                        0x080202e9     0x2  Code  Wk  stm32l4xx_hal_dfsdm.o [1]
+HAL_DFSDM_FilterGetState
+                        0x080202eb     0x6  Code  Gb  stm32l4xx_hal_dfsdm.o [1]
+HAL_DFSDM_FilterInit    0x080200c3    0xe2  Code  Gb  stm32l4xx_hal_dfsdm.o [1]
+HAL_DFSDM_FilterMspDeInit
+                        0x080201c9     0x2  Code  Wk  stm32l4xx_hal_dfsdm.o [1]
+HAL_DFSDM_FilterMspInit
+                        0x080201c7     0x2  Code  Wk  stm32l4xx_hal_dfsdm.o [1]
+HAL_DFSDM_FilterRegConvCpltCallback
+                        0x08017fe9    0xc4  Code  Gb  SensorTile_audio_in.o [1]
+HAL_DFSDM_FilterRegConvHalfCpltCallback
+                        0x080180ad    0xcc  Code  Gb  SensorTile_audio_in.o [1]
+HAL_DFSDM_FilterRegularStart_DMA
+                        0x08020219    0x7e  Code  Gb  stm32l4xx_hal_dfsdm.o [1]
+HAL_DFSDM_FilterRegularStop_DMA
+                        0x08020297    0x36  Code  Gb  stm32l4xx_hal_dfsdm.o [1]
+HAL_DMA_Abort           0x0801fdc3    0x40  Code  Gb  stm32l4xx_hal_dma.o [1]
+HAL_DMA_DeInit          0x0801fc89    0x94  Code  Gb  stm32l4xx_hal_dma.o [1]
+HAL_DMA_IRQHandler      0x0801fe03    0xc4  Code  Gb  stm32l4xx_hal_dma.o [1]
+HAL_DMA_Init            0x0801fb81   0x108  Code  Gb  stm32l4xx_hal_dma.o [1]
+HAL_DMA_Start_IT        0x0801fd2d    0x96  Code  Gb  stm32l4xx_hal_dma.o [1]
+HAL_Delay               0x0800f235    0x1e  Code  Gb  main.o [1]
+HAL_FLASHEx_Erase       0x080184b9    0xe4  Code  Gb  stm32l4xx_hal_flash_ex.o [1]
+HAL_FLASH_Lock          0x08018369     0xe  Code  Gb  stm32l4xx_hal_flash.o [1]
+HAL_FLASH_Program       0x080181c9   0x186  Code  Gb  stm32l4xx_hal_flash.o [1]
+HAL_FLASH_Unlock        0x08018351    0x18  Code  Gb  stm32l4xx_hal_flash.o [1]
+HAL_GPIO_DeInit         0x08014549    0xf8  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_EXTI_Callback  0x0800f255    0x28  Code  Gb  main.o [1]
+HAL_GPIO_EXTI_IRQHandler
+                        0x08014661    0x18  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_Init           0x0801439d   0x1aa  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_ReadPin        0x08014641     0xe  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_TogglePin      0x08014659     0x8  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x0801464f     0xa  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GetHalVersion       0x0800f36d     0x4  Code  Gb  stm32l4xx_hal.o [1]
+HAL_GetTick             0x0800f367     0x6  Code  Wk  stm32l4xx_hal.o [1]
+HAL_I2C_DeInit          0x0801f2f1    0x34  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_GetState        0x0801fae9     0x6  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_Init            0x0801f249    0xa8  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_Mem_Read        0x0801f711   0x3cc  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_Mem_Write       0x0801f329   0x3e6  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_MspDeInit       0x0801f327     0x2  Code  Wk  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_MspInit         0x0801f325     0x2  Code  Wk  stm32l4xx_hal_i2c.o [1]
+HAL_IncTick             0x0800f35d     0xa  Code  Wk  stm32l4xx_hal.o [1]
+HAL_Init                0x0800f31d    0x1a  Code  Gb  stm32l4xx_hal.o [1]
+HAL_InitTick            0x0800f339    0x24  Code  Wk  stm32l4xx_hal.o [1]
+HAL_MspInit             0x0800f337     0x2  Code  Wk  stm32l4xx_hal.o [1]
+HAL_NVIC_DisableIRQ     0x08012acf    0x12  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_NVIC_EnableIRQ      0x08012abd    0x12  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x08012a6b    0x52  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x08012a51    0x1a  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_NVIC_SystemReset    0x08012ae1    0x1a  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_PWREx_EnableVddIO2  0x0801dce5     0xe  Code  Gb  stm32l4xx_hal_pwr_ex.o [1]
+HAL_PWREx_GetVoltageRange
+                        0x0801dcd9     0xc  Code  Gb  stm32l4xx_hal_pwr_ex.o [1]
+HAL_PWR_EnableBkUpAccess
+                        0x0801537d     0xc  Code  Gb  stm32l4xx_hal_pwr.o [1]
+HAL_RCCEx_DisableLSECSS
+                        0x08015e8f    0x16  Code  Gb  stm32l4xx_hal_rcc_ex.o [1]
+HAL_RCCEx_EnableMSIPLLMode
+                        0x08015ea5     0xc  Code  Gb  stm32l4xx_hal_rcc_ex.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                        0x08015b35   0x35a  Code  Gb  stm32l4xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig     0x080158f5   0x16c  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x08015a61    0xb0  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x0801538d   0x568  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_SPI_GetState        0x0801dcd1     0x6  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SPI_Init            0x0801d881    0xbe  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SPI_MspInit         0x08014f79   0x15e  Code  Gb  SensorTile_BlueNRG.o [1]
+HAL_SPI_TransmitReceive
+                        0x0801d93f   0x392  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SYSTICK_Config      0x08012afb    0x22  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_TIMEx_BreakCallback
+                        0x080175c7     0x2  Code  Wk  stm32l4xx_hal_tim_ex.o [1]
+HAL_TIMEx_CommutationCallback
+                        0x080175c5     0x2  Code  Wk  stm32l4xx_hal_tim_ex.o [1]
+HAL_TIM_Base_Init       0x08011e35    0xe4  Code  Gb  stm32l4xx_hal_tim.o [1]
+HAL_TIM_Base_MspInit    0x080174ed    0x62  Code  Gb  stm32l4xx_hal_msp.o [1]
+HAL_TIM_Base_Start_IT   0x08011f19    0x16  Code  Gb  stm32l4xx_hal_tim.o [1]
+HAL_TIM_Base_Stop_IT    0x08011f2f    0x2a  Code  Gb  stm32l4xx_hal_tim.o [1]
+HAL_TIM_IC_CaptureCallback
+                        0x080123c3     0x2  Code  Wk  stm32l4xx_hal_tim.o [1]
+HAL_TIM_IRQHandler      0x0801219d   0x14a  Code  Gb  stm32l4xx_hal_tim.o [1]
+HAL_TIM_OC_ConfigChannel
+                        0x080122e9    0x76  Code  Gb  stm32l4xx_hal_tim.o [1]
+HAL_TIM_OC_DelayElapsedCallback
+                        0x0800e571    0xaa  Code  Gb  main.o [1]
+HAL_TIM_OC_Init         0x08011f59    0xe4  Code  Gb  stm32l4xx_hal_tim.o [1]
+HAL_TIM_OC_MspInit      0x0801754f    0x2e  Code  Gb  stm32l4xx_hal_msp.o [1]
+HAL_TIM_OC_Start_IT     0x0801203d    0x8a  Code  Gb  stm32l4xx_hal_tim.o [1]
+HAL_TIM_OC_Stop_IT      0x080120c9    0xb2  Code  Gb  stm32l4xx_hal_tim.o [1]
+HAL_TIM_PWM_PulseFinishedCallback
+                        0x080123c5     0x2  Code  Wk  stm32l4xx_hal_tim.o [1]
+HAL_TIM_PeriodElapsedCallback
+                        0x0800e61b    0x2c  Code  Gb  main.o [1]
+HAL_TIM_ReadCapturedValue
+                        0x08012361    0x62  Code  Gb  stm32l4xx_hal_tim.o [1]
+HAL_TIM_TriggerCallback
+                        0x080123c7     0x2  Code  Wk  stm32l4xx_hal_tim.o [1]
+HCI_Event_CB            0x0800d809   0x13c  Code  Gb  sensor_service.o [1]
+HCI_Init                0x08010421    0x4a  Code  Gb  hci.o [1]
+HCI_Isr                 0x080104bf    0x7e  Code  Gb  hci.o [1]
+HCI_Process             0x0801046b    0x54  Code  Gb  hci.o [1]
+HCI_ProcessEvent        0x20006018     0x4  Data  Lc  main.o [1]
+HEAP$$Base              0x2000b318           --   Gb  - Linker created -
+HEAP$$Limit             0x2000d318           --   Gb  - Linker created -
+HTS221_Activate         0x0802597d    0x3c  Code  Gb  HTS221_Driver.o [1]
+HTS221_Combo_Data       0x200092e0     0x4  Data  Gb  HTS221_Driver_HL.o [1]
+HTS221_DeActivate       0x080259b9    0x3c  Code  Gb  HTS221_Driver.o [1]
+HTS221_Get_DataStatus   0x08025949    0x34  Code  Gb  HTS221_Driver.o [1]
+HTS221_Get_DeviceID     0x08025755    0x1a  Code  Gb  HTS221_Driver.o [1]
+HTS221_Get_Humidity     0x08025771    0xf2  Code  Gb  HTS221_Driver.o [1]
+HTS221_Get_Odr          0x08025ab1    0x28  Code  Gb  HTS221_Driver.o [1]
+HTS221_Get_Temperature  0x08025869    0xe0  Code  Gb  HTS221_Driver.o [1]
+HTS221_H_0_Data         0x200091e0     0x4  Data  Lc  SensorTile_humidity.o [1]
+HTS221_H_Check_WhoAmI   0x08025329    0x2a  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_H_DeInit         0x08025285    0x3a  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_H_Drv            0x20006a50    0x34  Data  Gb  HTS221_Driver_HL.o [1]
+HTS221_H_Get_DRDY_Status
+                        0x0802546b    0x2e  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_H_Get_Hum        0x08025353    0x34  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_H_Get_ODR        0x08025389    0x54  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_H_Get_WhoAmI     0x08025317    0x12  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_H_Init           0x08025221    0x64  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_H_Read_Reg       0x0802543b    0x16  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_H_Sensor_Disable
+                        0x080252ed    0x2a  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_H_Sensor_Enable  0x080252bf    0x2e  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_H_Set_ODR        0x080253dd    0x26  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_H_Set_ODR_Value  0x08025405    0x36  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_H_Write_Reg      0x08025451    0x1a  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_ReadReg          0x08025729    0x16  Code  Gb  HTS221_Driver.o [1]
+HTS221_Set_BduMode      0x080259f5    0x5c  Code  Gb  HTS221_Driver.o [1]
+HTS221_Set_Odr          0x08025a51    0x60  Code  Gb  HTS221_Driver.o [1]
+HTS221_T_0_Data         0x20009088     0x4  Data  Lc  SensorTile_temperature.o [1]
+HTS221_T_Check_WhoAmI   0x080255a1    0x2a  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_T_DeInit         0x080254fd    0x3a  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_T_Drv            0x20006a84    0x34  Data  Gb  HTS221_Driver_HL.o [1]
+HTS221_T_Get_DRDY_Status
+                        0x080256f9    0x2e  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_T_Get_ODR        0x08025601    0x54  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_T_Get_Temp       0x080255cb    0x34  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_T_Get_WhoAmI     0x0802558f    0x12  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_T_Init           0x08025499    0x64  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_T_Read_Reg       0x080256c9    0x16  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_T_Sensor_Disable
+                        0x08025565    0x2a  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_T_Sensor_Enable  0x08025537    0x2e  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_T_Set_ODR        0x08025655    0x26  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_T_Set_ODR_Value  0x0802567d    0x36  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_T_Write_Reg      0x080256df    0x1a  Code  Lc  HTS221_Driver_HL.o [1]
+HTS221_WriteReg         0x0802573f    0x16  Code  Gb  HTS221_Driver.o [1]
+HUMIDITY_Data           0x200091d8     0x8  Data  Lc  SensorTile_humidity.o [1]
+HUMIDITY_SensorHandle   0x200091c4    0x14  Data  Lc  SensorTile_humidity.o [1]
+HWAdvanceFeaturesStatus
+                        0x200092b8     0x4  Data  Gb  HWAdvanceFeatures.o [1]
+HWServW2STHandle        0x2000675c     0x2  Data  Lc  sensor_service.o [1]
+Hal_Write_Serial        0x080150d7    0x3c  Code  Gb  SensorTile_BlueNRG.o [1]
+HardFault_Handler       0x080269db     0x2  Code  Gb  stm32l4xx_it.o [1]
+High_Average            0x20009278     0x4  Data  Gb  main.o [1]
+High_Sum                0x2000927c     0x4  Data  Gb  main.o [1]
+Hzk                     0x20006150   0x2c0  Data  Gb  oled.o [1]
+I2C_IsAcknowledgeFailed
+                        0x0801faef    0x8a  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_SENSORTILE_Handle   0x20008bc4    0x4c  Data  Lc  SensorTile.o [1]
+I2C_SENSORTILE_Init     0x08016feb    0xcc  Code  Lc  SensorTile.o [1]
+IIC_Start               0x0800f47d    0x3a  Code  Gb  oled.o [1]
+InStream_Read           0x08026025    0x22  Code  Lc  lz77_init.o [10]
+IndexTable              0x08011ddc    0x10  Data  Lc  osx_bluevoice.o [5]
+InitHWFeatures          0x08010f05     0xe  Code  Gb  HWAdvanceFeatures.o [1]
+InitMetaDataManager     0x08012da9   0x416  Code  Gb  MetaDataManager.o [1]
+InitMics                0x0801275b    0x2c  Code  Gb  TargetPlatform.o [1]
+InitTargetPlatform      0x08012671    0x2c  Code  Gb  TargetPlatform.o [1]
+InitTimers              0x0800efa1    0xe2  Code  Lc  main.o [1]
+Init_BlueNRG_Stack      0x0800f091    0xe0  Code  Lc  main.o [1]
+Init_MEM1_Sensors       0x0801269d    0xbe  Code  Lc  TargetPlatform.o [1]
+LPS22HB_Combo_Data      0x200092c0     0x8  Data  Gb  LPS22HB_Driver_HL.o [1]
+LPS22HB_Get_DataStatus  0x08017423    0x46  Code  Gb  LPS22HB_Driver.o [1]
+LPS22HB_Get_DeviceID    0x08017225    0x1a  Code  Gb  LPS22HB_Driver.o [1]
+LPS22HB_Get_Odr         0x080172bf    0x28  Code  Gb  LPS22HB_Driver.o [1]
+LPS22HB_Get_Pressure    0x08017469    0x48  Code  Gb  LPS22HB_Driver.o [1]
+LPS22HB_Get_Temperature
+                        0x080174b1    0x3c  Code  Gb  LPS22HB_Driver.o [1]
+LPS22HB_P_0_Data        0x20009220     0x4  Data  Lc  SensorTile_pressure.o [1]
+LPS22HB_P_Check_WhoAmI  0x08023bcb    0x2a  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_P_DeInit        0x08023a93    0x34  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_P_Drv           0x20006ab8    0x34  Data  Gb  LPS22HB_Driver_HL.o [1]
+LPS22HB_P_Get_DRDY_Status
+                        0x08023eb1    0x1c  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_P_Get_ODR       0x08023c23    0x72  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_P_Get_Press     0x08023bf5    0x2e  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_P_Get_WhoAmI    0x08023bb9    0x12  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_P_Init          0x080239f5    0x9e  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_P_Read_Reg      0x08023e81    0x16  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_P_Sensor_Disable
+                        0x08023b8f    0x2a  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_P_Sensor_Enable
+                        0x08023ac9    0xc6  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_P_Set_ODR       0x08023c95    0xca  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_P_Set_ODR_Value
+                        0x08023d71   0x10a  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_P_Write_Reg     0x08023e97    0x1a  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_ReadReg         0x080171f9    0x16  Code  Gb  LPS22HB_Driver.o [1]
+LPS22HB_Set_AutomaticIncrementRegAddress
+                        0x080173e1    0x42  Code  Gb  LPS22HB_Driver.o [1]
+LPS22HB_Set_Bdu         0x08017369    0x3c  Code  Gb  LPS22HB_Driver.o [1]
+LPS22HB_Set_LowPassFilter
+                        0x080172e7    0x42  Code  Gb  LPS22HB_Driver.o [1]
+LPS22HB_Set_LowPassFilterCutoff
+                        0x08017329    0x40  Code  Gb  LPS22HB_Driver.o [1]
+LPS22HB_Set_Odr         0x0801727f    0x40  Code  Gb  LPS22HB_Driver.o [1]
+LPS22HB_Set_PowerMode   0x0801723f    0x40  Code  Gb  LPS22HB_Driver.o [1]
+LPS22HB_SwResetAndMemoryBoot
+                        0x080173a5    0x3c  Code  Gb  LPS22HB_Driver.o [1]
+LPS22HB_T_0_Data        0x20009084     0x4  Data  Lc  SensorTile_temperature.o [1]
+LPS22HB_T_Check_WhoAmI  0x080240b5    0x2a  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_T_DeInit        0x08023f71    0x34  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_T_Drv           0x20006aec    0x34  Data  Gb  LPS22HB_Driver_HL.o [1]
+LPS22HB_T_Get_DRDY_Status
+                        0x0802437b    0x1c  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_T_Get_ODR       0x08024113    0x70  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_T_Get_Temp      0x080240df    0x34  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_T_Get_WhoAmI    0x080240a3    0x12  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_T_Init          0x08023ecd    0x9e  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_T_Read_Reg      0x0802434b    0x16  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_T_Sensor_Disable
+                        0x08024079    0x2a  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_T_Sensor_Enable
+                        0x08023fa5    0xc4  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_T_Set_ODR       0x08024189    0xba  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_T_Set_ODR_Value
+                        0x08024249   0x102  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_T_Write_Reg     0x08024361    0x1a  Code  Lc  LPS22HB_Driver_HL.o [1]
+LPS22HB_WriteReg        0x0801720f    0x16  Code  Gb  LPS22HB_Driver.o [1]
+LSM303AGR_ACC_Get_Acceleration
+                        0x08024d29   0x144  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_Get_Raw_Acceleration
+                        0x08024d11    0x18  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_R_FullScale
+                        0x08024cf1    0x20  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_R_HiRes   0x08025069    0x20  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_R_LOWPWR_EN
+                        0x08025049    0x20  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_R_ODR     0x08024f0f    0x20  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_R_WHO_AM_I
+                        0x08024c5d    0x18  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_R_XDataAvail
+                        0x08025089    0x20  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_R_XEN     0x08024f6d    0x20  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_R_YEN     0x08024fcb    0x20  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_R_ZEN     0x08025029    0x20  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_ReadReg   0x08024c4b    0x12  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_Sensitivity_List
+                        0x08024e70    0x60  Data  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_W_BlockDataUpdate
+                        0x08024c75    0x3e  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_W_FifoMode
+                        0x080250a9    0x3e  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_W_FullScale
+                        0x08024cb3    0x3e  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_W_ODR     0x08024ed1    0x3e  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_W_XEN     0x08024f2f    0x3e  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_W_YEN     0x08024f8d    0x3e  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_W_ZEN     0x08024feb    0x3e  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_WriteReg  0x08024c39    0x12  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_Combo_Data    0x200092de     0x2  Data  Gb  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_MAG_Get_Raw_Magnetic
+                        0x08025f51    0x18  Code  Gb  LSM303AGR_MAG_driver.o [1]
+LSM303AGR_MAG_R_ODR     0x08025fa7    0x20  Code  Gb  LSM303AGR_MAG_driver.o [1]
+LSM303AGR_MAG_R_WHO_AM_I
+                        0x08025ebd    0x18  Code  Gb  LSM303AGR_MAG_driver.o [1]
+LSM303AGR_MAG_R_ZYXDA   0x08026005    0x20  Code  Gb  LSM303AGR_MAG_driver.o [1]
+LSM303AGR_MAG_ReadReg   0x08025eab    0x12  Code  Gb  LSM303AGR_MAG_driver.o [1]
+LSM303AGR_MAG_W_BDU     0x08025ed5    0x3e  Code  Gb  LSM303AGR_MAG_driver.o [1]
+LSM303AGR_MAG_W_MD      0x08025f13    0x3e  Code  Gb  LSM303AGR_MAG_driver.o [1]
+LSM303AGR_MAG_W_ODR     0x08025f69    0x3e  Code  Gb  LSM303AGR_MAG_driver.o [1]
+LSM303AGR_MAG_W_ST      0x08025fc7    0x3e  Code  Gb  LSM303AGR_MAG_driver.o [1]
+LSM303AGR_MAG_WriteReg  0x08025e99    0x12  Code  Gb  LSM303AGR_MAG_driver.o [1]
+LSM303AGR_M_0_Data      0x20009200     0x4  Data  Lc  SensorTile_magneto.o [1]
+LSM303AGR_M_Check_WhoAmI
+                        0x08025c7b    0x2c  Code  Lc  LSM303AGR_MAG_driver_HL.o [1]
+LSM303AGR_M_DeInit      0x08025be5    0x48  Code  Lc  LSM303AGR_MAG_driver_HL.o [1]
+LSM303AGR_M_Drv         0x20006908    0x48  Data  Gb  LSM303AGR_MAG_driver_HL.o [1]
+LSM303AGR_M_Get_Axes    0x08025ca7    0x6e  Code  Lc  LSM303AGR_MAG_driver_HL.o [1]
+LSM303AGR_M_Get_AxesRaw
+                        0x08025d15    0x34  Code  Lc  LSM303AGR_MAG_driver_HL.o [1]
+LSM303AGR_M_Get_DRDY_Status
+                        0x08025e71    0x28  Code  Lc  LSM303AGR_MAG_driver_HL.o [1]
+LSM303AGR_M_Get_FS      0x08025e19     0x8  Code  Lc  LSM303AGR_MAG_driver_HL.o [1]
+LSM303AGR_M_Get_ODR     0x08025d55    0x48  Code  Lc  LSM303AGR_MAG_driver_HL.o [1]
+LSM303AGR_M_Get_Sensitivity
+                        0x08025d49     0xa  Code  Lc  LSM303AGR_MAG_driver_HL.o [1]
+LSM303AGR_M_Get_WhoAmI  0x08025c69    0x12  Code  Lc  LSM303AGR_MAG_driver_HL.o [1]
+LSM303AGR_M_Init        0x08025b85    0x60  Code  Lc  LSM303AGR_MAG_driver_HL.o [1]
+LSM303AGR_M_Read_Reg    0x08025e49    0x14  Code  Lc  LSM303AGR_MAG_driver_HL.o [1]
+LSM303AGR_M_Sensor_Disable
+                        0x08025c4d    0x1c  Code  Lc  LSM303AGR_MAG_driver_HL.o [1]
+LSM303AGR_M_Sensor_Enable
+                        0x08025c2d    0x20  Code  Lc  LSM303AGR_MAG_driver_HL.o [1]
+LSM303AGR_M_Set_FS      0x08025e41     0x4  Code  Lc  LSM303AGR_MAG_driver_HL.o [1]
+LSM303AGR_M_Set_FS_Value
+                        0x08025e45     0x4  Code  Lc  LSM303AGR_MAG_driver_HL.o [1]
+LSM303AGR_M_Set_ODR     0x08025d9d    0x34  Code  Lc  LSM303AGR_MAG_driver_HL.o [1]
+LSM303AGR_M_Set_ODR_Value
+                        0x08025dd1    0x48  Code  Lc  LSM303AGR_MAG_driver_HL.o [1]
+LSM303AGR_M_Write_Reg   0x08025e5d    0x14  Code  Lc  LSM303AGR_MAG_driver_HL.o [1]
+LSM303AGR_X_0_Data      0x20009044     0x8  Data  Lc  SensorTile_accelero.o [1]
+LSM303AGR_X_Check_WhoAmI
+                        0x0802463b    0x2c  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_DeInit      0x08024443    0xb2  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Drv         0x20006818    0x50  Data  Gb  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Get_Axes    0x08024667    0x26  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Get_AxesRaw
+                        0x0802468d    0x6e  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Get_Axes_Status
+                        0x08024b41    0x5c  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Get_DRDY_Status
+                        0x08024c11    0x28  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Get_FS      0x08024a11    0x4e  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Get_ODR     0x08024839    0x66  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Get_Sensitivity
+                        0x080246fb   0x13a  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Get_WhoAmI  0x08024629    0x12  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Init        0x080243bd    0x86  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Read_Reg    0x08024be9    0x14  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Sensor_Disable
+                        0x08024587    0x8c  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Sensor_Enable
+                        0x080244f5    0x92  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Set_Axes_Status
+                        0x08024b9d    0x4c  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Set_FS      0x08024a61    0x30  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Set_FS_Value
+                        0x08024a91    0x48  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Set_ODR     0x080248a1    0x66  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Set_ODR_Value
+                        0x08024909   0x108  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Write_Reg   0x08024bfd    0x14  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM6DSM_ACC_GYRO_GetRawAccData
+                        0x08022e4d    0x48  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_GetRawGyroData
+                        0x08022e05    0x48  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_Get_GetStepCounter
+                        0x08022e95    0x2e  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_D6D_EV_STATUS
+                        0x08022795    0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_DOUBLE_TAP_EV_STATUS
+                        0x08022695    0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_DSD_XH
+                        0x080226f5    0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_DSD_XL
+                        0x080226d5    0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_DSD_YH
+                        0x08022735    0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_DSD_YL
+                        0x08022715    0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_DSD_ZH
+                        0x08022775    0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_DSD_ZL
+                        0x08022755    0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_FF_EV_STATUS
+                        0x08022675    0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_FS_125
+                        0x080223d5    0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_FS_G
+                        0x08022439    0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_FS_XL
+                        0x0802230d    0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_ODR_G
+                        0x0802249d    0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_ODR_XL
+                        0x08022371    0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_PEDO_EV_STATUS
+                        0x080227b5    0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_SINGLE_TAP_EV_STATUS
+                        0x080226b5    0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_TILT_EV_STATUS
+                        0x080227d5    0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_WHO_AM_I
+                        0x080222b1    0x18  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_WU_EV_STATUS
+                        0x08022655    0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_6DEvOnInt2
+                        0x08022cb1    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_BASIC_INT
+                        0x080228c1    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_BDU  0x08022501    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_DUR  0x08022a0f    0x4a  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_FFEvOnInt2
+                        0x08022d39    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_FF_Duration
+                        0x08022beb    0x82  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_FF_THS
+                        0x08022ba7    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_FIFO_MODE
+                        0x08022229    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_FS_125
+                        0x08022391    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_FS_G
+                        0x080223f5    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_FS_XL
+                        0x080222c9    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_FUNC_EN
+                        0x08022611    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_IF_Addr_Incr
+                        0x080224bd    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_ODR_G
+                        0x08022459    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_ODR_XL
+                        0x0802232d    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_PEDO
+                        0x080225cd    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_PedoStepReset
+                        0x08022545    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_PedoThreshold
+                        0x08022ec3    0xa2  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_QUIET_Duration
+                        0x080229cd    0x42  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_SHOCK_Duration
+                        0x0802298b    0x42  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_SINGLE_DOUBLE_TAP_EV
+                        0x08022a9b    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_SIXD_THS
+                        0x08022947    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_SLEEP_DUR
+                        0x08022adf    0x42  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_STEP_DELTA_on_INT2
+                        0x0802226d    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_SingleTapOnInt2
+                        0x08022dc1    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_TAP_THS
+                        0x08022905    0x42  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_TAP_X_EN
+                        0x0802287d    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_TAP_Y_EN
+                        0x08022839    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_TAP_Z_EN
+                        0x080227f5    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_TILT
+                        0x08022589    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_TIMER_HR
+                        0x08022b21    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_TapEvOnInt2
+                        0x08022cf5    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_TiltEvOnInt2
+                        0x08022c6d    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_WAKE_DUR
+                        0x08022b65    0x42  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_WK_THS
+                        0x08022a59    0x42  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_WUEvOnInt2
+                        0x08022d7d    0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_Combo_Data      0x2000930c     0x2  Data  Gb  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_G_0_Data        0x20009198     0x8  Data  Lc  SensorTile_gyro.o [1]
+LSM6DSM_G_Check_WhoAmI  0x080213b3    0x2c  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_G_DeInit        0x080211b5    0x5a  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_G_Drv           0x200068b8    0x50  Data  Gb  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_G_Get_Axes      0x080213e1    0xea  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_G_Get_AxesRaw   0x080214ed    0x4e  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_G_Get_FS        0x0802183d    0x72  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_G_Get_ODR       0x080215a9    0x7c  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_G_Get_Sensitivity
+                        0x0802153d    0x68  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_G_Get_WhoAmI    0x080213a1    0x12  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_G_Init          0x08021111    0x70  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_G_Sensor_Disable
+                        0x080212e9    0xae  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_G_Sensor_Enable
+                        0x08021211    0xc8  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_G_Set_FS        0x080218b9    0x30  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_G_Set_FS_Value  0x080218e9    0x72  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_G_Set_ODR       0x08021625    0x5c  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_G_Set_ODR_Value
+                        0x080216bd   0x17a  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_Sensor_IO_ITConfig
+                        0x08016f69    0x4a  Code  Gb  SensorTile.o [1]
+LSM6DSM_X_0_Data        0x2000903c     0x8  Data  Lc  SensorTile_accelero.o [1]
+LSM6DSM_X_Check_WhoAmI  0x08020c01    0x2c  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_DeInit        0x08020849   0x230  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Disable_6D_Orientation
+                        0x080220e5    0x2a  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Disable_Double_Tap_Detection
+                        0x08021f99    0x70  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Disable_Free_Fall_Detection
+                        0x08021b01    0x34  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Disable_Pedometer
+                        0x08021bcd    0x34  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Disable_Single_Tap_Detection
+                        0x08021e77    0x5c  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Disable_Step_Counter_Reset
+                        0x08021c4f    0x14  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Disable_Tilt_Detection
+                        0x08021cc9    0x2a  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Disable_Wake_Up_Detection
+                        0x08021d81    0x34  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Drv           0x20006868    0x50  Data  Gb  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Enable_6D_Orientation
+                        0x08022079    0x54  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Enable_Double_Tap_Detection
+                        0x08021efd    0x9c  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Enable_Free_Fall_Detection
+                        0x08021a49    0x7c  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Enable_Pedometer
+                        0x08021b6f    0x5e  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Enable_Single_Tap_Detection
+                        0x08021df1    0x86  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Enable_Step_Counter_Reset
+                        0x08021c3b    0x14  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Enable_Tilt_Detection
+                        0x08021c75    0x54  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Enable_Wake_Up_Detection
+                        0x08021d1d    0x5e  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_ExtDrv        0x20006644    0x94  Data  Gb  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_6D_Orientation_Status
+                        0x0802210f    0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_6D_Orientation_XH
+                        0x0802215f    0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_6D_Orientation_XL
+                        0x08022137    0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_6D_Orientation_YH
+                        0x080221af    0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_6D_Orientation_YL
+                        0x08022187    0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_6D_Orientation_ZH
+                        0x080221ff    0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_6D_Orientation_ZL
+                        0x080221d7    0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_Axes      0x08020c2d    0xd4  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_AxesRaw   0x08020d19    0x4e  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_Double_Tap_Detection_Status
+                        0x08022009    0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_FS        0x08021041    0x52  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_Free_Fall_Detection_Status
+                        0x08021b35    0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_ODR       0x08020dc1    0x92  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_Pedometer_Status
+                        0x08021c01    0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_Sensitivity
+                        0x08020d69    0x4a  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_Single_Tap_Detection_Status
+                        0x08021ed3    0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_Step_Count
+                        0x08021c29    0x12  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_Tilt_Detection_Status
+                        0x08021cf3    0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_Wake_Up_Detection_Status
+                        0x08021db5    0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_WhoAmI    0x08020bef    0x12  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Init          0x080207d9    0x70  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Sensor_Disable
+                        0x08020b41    0xae  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Sensor_Enable
+                        0x08020a79    0xc8  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_FS        0x08021095    0x30  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_FS_Value  0x080210c5    0x48  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_Free_Fall_Threshold
+                        0x08021b5d    0x12  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_ODR       0x08020e55    0x60  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_ODR_Value
+                        0x08020ec5   0x17a  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_ODR_Value_When_Enabled
+                        0x08021981    0xb4  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_Pedometer_Threshold
+                        0x08021c63    0x12  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_Tap_Duration_Time
+                        0x08022067    0x12  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_Tap_Quiet_Time
+                        0x08022055    0x12  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_Tap_Shock_Time
+                        0x08022043    0x12  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_Tap_Threshold
+                        0x08022031    0x12  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_Wake_Up_Threshold
+                        0x08021ddd    0x12  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LastStderrBuffer        0x20006794    0x14  Data  Lc  sensor_service.o [1]
+LastStderrLen           0x20006759     0x1  Data  Lc  sensor_service.o [1]
+LastTermBuffer          0x200067a8    0x14  Data  Lc  sensor_service.o [1]
+LastTermLen             0x2000675a     0x1  Data  Lc  sensor_service.o [1]
+LedOffTargetPlatform    0x080127b1    0x16  Code  Gb  TargetPlatform.o [1]
+LedOnTargetPlatform     0x0801279b    0x16  Code  Gb  TargetPlatform.o [1]
+LedToggleTargetPlatform
+                        0x080127c7     0x6  Code  Gb  TargetPlatform.o [1]
+LoadInt                 0x08016541    0x4c  Code  Lc  xprintfsmall.o [3]
+MAGNETO_Data            0x200091f8     0x8  Data  Lc  SensorTile_magneto.o [1]
+MAGNETO_SensorHandle    0x200091e4    0x14  Data  Lc  SensorTile_magneto.o [1]
+MAGOFFX                 0x20005dcc     0x2  Data  Lc  osx_motion_fx.o [8]
+MAGOFFY                 0x20005dce     0x2  Data  Lc  osx_motion_fx.o [8]
+MAGOFFZ                 0x20005dd0     0x2  Data  Lc  osx_motion_fx.o [8]
+MAG_FIELD               0x20005dca     0x2  Data  Lc  osx_motion_fx.o [8]
+MDM_GMDTable            0x20006410    0xa8  Data  Gb  MetaDataManager.o [1]
+MDM_LicTable            0x200064b8   0x140  Data  Gb  MetaDataManager.o [1]
+MDM_LicenseParsing      0x080132cd   0x1ae  Code  Gb  MetaDataManager.o [1]
+MEMSCallback            0x0800e647    0xd0  Code  Lc  main.o [1]
+MEMSInterrupt           0x20006014     0x4  Data  Lc  main.o [1]
+MSIRangeTable           0x080267d0    0x30  Data  Gb  system_stm32l4xx.o [1]
+MemManage_Handler       0x080269dd     0x2  Code  Gb  stm32l4xx_it.o [1]
+MetaDataLicenseStatus   0x0801347b     0xe  Code  Gb  MetaDataManager.o [1]
+MotionAR_License_init   0x08013725    0x2e  Code  Gb  MotionAR_Manager.o [1]
+MotionAR_manager_init   0x08013753    0x26  Code  Gb  MotionAR_Manager.o [1]
+MotionAR_manager_run    0x080136d1    0x54  Code  Gb  MotionAR_Manager.o [1]
+MotionCP_License_init   0x080137e1    0x2e  Code  Gb  MotionCP_Manager.o [1]
+MotionCP_manager_init   0x0801380f    0x26  Code  Gb  MotionCP_Manager.o [1]
+MotionCP_manager_run    0x0801378d    0x54  Code  Gb  MotionCP_Manager.o [1]
+MotionFX_License_init   0x080135bf    0x2e  Code  Gb  MotionFX_Manager.o [1]
+MotionFX_manager_getDataOUT
+                        0x08013693     0x4  Code  Gb  MotionFX_Manager.o [1]
+MotionFX_manager_init   0x080135ed    0xa0  Code  Gb  MotionFX_Manager.o [1]
+MotionFX_manager_run    0x080134a5   0x11a  Code  Gb  MotionFX_Manager.o [1]
+MotionFX_manager_start_9X
+                        0x0801368d     0x6  Code  Gb  MotionFX_Manager.o [1]
+MotionGR_License_init   0x0801389d    0x2e  Code  Gb  MotionGR_Manager.o [1]
+MotionGR_manager_init   0x080138cb    0x26  Code  Gb  MotionGR_Manager.o [1]
+MotionGR_manager_run    0x08013849    0x54  Code  Gb  MotionGR_Manager.o [1]
+MyCoreAPI_GetLibVersion
+                        0x08011b17    0x24  Code  Gb  osx_bluevoice.o [5]
+NMI_Handler             0x080269d9     0x2  Code  Gb  stm32l4xx_it.o [1]
+NecessityToSaveMetaDataManager
+                        0x20006638     0x4  Data  Gb  MetaDataManager.o [1]
+Need_Reinit             0x20009311     0x1  Data  Gb  sensor_service.o [1]
+NumberOfKnownGMD        0x20006634     0x4  Data  Lc  MetaDataManager.o [1]
+NumberOfKnownLic        0x20006630     0x4  Data  Lc  MetaDataManager.o [1]
+OLED_Clear              0x0800f651   0x1a8  Code  Gb  oled.o [1]
+OLED_Init               0x0800fb41    0xb8  Code  Gb  oled.o [1]
+OLED_Set_Pos            0x0800f62d    0x22  Code  Gb  oled.o [1]
+OLED_ShowCHinese        0x0800f9f9   0x146  Code  Gb  oled.o [1]
+OLED_ShowChar           0x0800f7f9   0x136  Code  Gb  oled.o [1]
+OLED_ShowNum            0x0800f931    0x94  Code  Gb  oled.o [1]
+OLED_ShowString         0x0800f9c5    0x34  Code  Gb  oled.o [1]
+Oled_Init               0x20006b80     0x4  Data  Gb  oled.o [1]
+Osal_MemCpy             0x080139b5     0xc  Code  Gb  osal.o [1]
+Osal_MemSet             0x080139c1    0x14  Code  Gb  osal.o [1]
+OutStream_Write         0x08026047    0x40  Code  Lc  lz77_init.o [10]
+PCM_Buffer              0x20008f44    0x20  Data  Gb  TargetPlatform.o [1]
+PRESSURE_Data           0x20009218     0x8  Data  Lc  SensorTile_pressure.o [1]
+PRESSURE_SensorHandle   0x20009204    0x14  Data  Lc  SensorTile_pressure.o [1]
+PendSV_Handler          0x080269e7     0x2  Code  Gb  stm32l4xx_it.o [1]
+Quat_Update             0x0800afc3    0xdc  Code  Gb  sensor_service.o [1]
+Quaternion              0x20006028     0x4  Data  Lc  main.o [1]
+QuaternionsCharHandle   0x20006768     0x2  Data  Lc  sensor_service.o [1]
+RCCEx_PLLSAI1_Config    0x08015eb1   0x12e  Code  Lc  stm32l4xx_hal_rcc_ex.o [1]
+RCCEx_PLLSAI2_Config    0x08015fe5   0x114  Code  Lc  stm32l4xx_hal_rcc_ex.o [1]
+RMS_Ch                  0x200092e8     0x4  Data  Gb  TargetPlatform.o [1]
+ReCallMetaDataManager   0x080131c1    0xa0  Code  Lc  MetaDataManager.o [1]
+Read_High_Count         0x20009274     0x4  Data  Gb  main.o [1]
+Read_Request_CB         0x0800becd   0x264  Code  Gb  sensor_service.o [1]
+RecBuff                 0x20002f28   0xc00  Data  Gb  SensorTile_audio_in.o [1]
+Region$$Table$$Base     0x08026aac           --   Gb  - Linker created -
+Region$$Table$$Limit    0x08026ad8           --   Gb  - Linker created -
+ReseMetaDataManager     0x08013261    0x4c  Code  Gb  MetaDataManager.o [1]
+ResetHWPedometer        0x080113cd    0x10  Code  Gb  HWAdvanceFeatures.o [1]
+SENSORTILE_AudioIn_Handler
+                        0x20002ee8    0x3c  Data  Lc  SensorTile_audio_in.o [1]
+SPI_Read                0x08016fb5    0x36  Code  Gb  SensorTile.o [1]
+SPI_Sensor_Handle       0x20008b60    0x64  Data  Lc  SensorTile.o [1]
+STC3115_0_Data          0x20008e10    0x6c  Data  Lc  SensorTile_gg.o [1]
+STC3115_CalcRamCRC8     0x08023669    0x64  Code  Lc  STC3115_Driver.o [1]
+STC3115_DeInit          0x08023217     0x8  Code  Lc  STC3115_Driver.o [1]
+STC3115_Drv             0x200067bc    0x5c  Data  Gb  STC3115_Driver.o [1]
+STC3115_GetAlarmStatus  0x08023659    0x10  Code  Lc  STC3115_Driver.o [1]
+STC3115_GetChargeValue  0x08023641     0xc  Code  Lc  STC3115_Driver.o [1]
+STC3115_GetCurrent      0x0802361d     0xc  Code  Lc  STC3115_Driver.o [1]
+STC3115_GetOCV          0x08023611     0xc  Code  Lc  STC3115_Driver.o [1]
+STC3115_GetPresence     0x0802364d     0xc  Code  Lc  STC3115_Driver.o [1]
+STC3115_GetSOC          0x080235fd    0x14  Code  Lc  STC3115_Driver.o [1]
+STC3115_GetTemperature  0x08023629     0xc  Code  Lc  STC3115_Driver.o [1]
+STC3115_GetVoltage      0x08023635     0xc  Code  Lc  STC3115_Driver.o [1]
+STC3115_Get_WhoAmI      0x0802321f    0x1a  Code  Lc  STC3115_Driver.o [1]
+STC3115_Init            0x08022f65   0x2b2  Code  Lc  STC3115_Driver.o [1]
+STC3115_InitRamData     0x080236cd    0x8e  Code  Lc  STC3115_Driver.o [1]
+STC3115_ReadBatteryData
+                        0x0802375b    0xf8  Code  Lc  STC3115_Driver.o [1]
+STC3115_Reset           0x080234fd    0x3e  Code  Lc  STC3115_Driver.o [1]
+STC3115_Restore         0x08023853    0x78  Code  Lc  STC3115_Driver.o [1]
+STC3115_SetParam        0x080238cb    0xea  Code  Lc  STC3115_Driver.o [1]
+STC3115_Stop            0x0802353b    0xc2  Code  Lc  STC3115_Driver.o [1]
+STC3115_Task            0x08023239   0x2c4  Code  Lc  STC3115_Driver.o [1]
+SVC_Handler             0x080269e3     0x2  Code  Gb  stm32l4xx_it.o [1]
+SaveMetaDataManager     0x080132b1    0x1a  Code  Gb  MetaDataManager.o [1]
+SendAccGyroMag          0x20006024     0x4  Data  Lc  main.o [1]
+SendAudioLevel          0x20006020     0x4  Data  Lc  main.o [1]
+SendBlueVoice           0x200092b0     0x1  Data  Gb  AudioBV_Manager.o [1]
+SendEnv                 0x2000601c     0x4  Data  Lc  main.o [1]
+SendEnvironmentalData   0x0800ea75   0x1d4  Code  Lc  main.o [1]
+SendEnvironmentalData_Oled
+                        0x0800ec89   0x30c  Code  Lc  main.o [1]
+Sensor_IO_I2C_Init      0x080169c5    0xcc  Code  Gb  SensorTile.o [1]
+Sensor_IO_Read          0x08016e29    0x62  Code  Gb  SensorTile.o [1]
+Sensor_IO_SPI_CS_Init   0x08016c1d    0xe4  Code  Gb  SensorTile.o [1]
+Sensor_IO_SPI_CS_Init_All
+                        0x08016b53    0xca  Code  Gb  SensorTile.o [1]
+Sensor_IO_SPI_Init      0x08016a91    0xc2  Code  Gb  SensorTile.o [1]
+Sensor_IO_SPI_Read      0x08016e8d    0xdc  Code  Gb  SensorTile.o [1]
+Sensor_IO_Write         0x08016d01   0x128  Code  Gb  SensorTile.o [1]
+Set2GAccelerometerFullScale
+                        0x0800e501    0x34  Code  Gb  main.o [1]
+Set4GAccelerometerFullScale
+                        0x0800e539    0x34  Code  Gb  main.o [1]
+SizeOfUpdateBlueFW      0x20006b5c     0x4  Data  Lc  OTA.o [1]
+SizeOfUpdateBlueFW      0x20006754     0x4  Data  Lc  sensor_service.o [1]
+SpacePointAlgorithm     0x0800909d   0x34c  Code  Lc  osx_motion_fx.o [8]
+SpacePointGyroProp      0x08009409   0x124  Code  Lc  osx_motion_fx.o [8]
+SpacePointGyroPropRedist
+                        0x08009539    0x9c  Code  Lc  osx_motion_fx.o [8]
+SpacePointQuatDivider   0x080095d9    0x66  Code  Lc  osx_motion_fx.o [8]
+SpiHandle               0x200085b4    0x64  Data  Gb  SensorTile_BlueNRG.o [1]
+StartUpdateFWBlueMS     0x08012995    0x9c  Code  Gb  OTA.o [1]
+StdErrCharHandle        0x2000677a     0x2  Data  Lc  sensor_service.o [1]
+Stderr_Update           0x0800af03    0x60  Code  Gb  sensor_service.o [1]
+StepSizeTable           0x08011d28    0xb4  Data  Lc  osx_bluevoice.o [5]
+SysTick_Handler         0x080269e9     0x4  Code  Gb  stm32l4xx_it.o [1]
+SystemClock_Config      0x0800f171    0xb6  Code  Lc  main.o [1]
+SystemCoreClock         0x20006b84     0x4  Data  Gb  system_stm32l4xx.o [1]
+SystemInit              0x08026775    0x3e  Code  Gb  system_stm32l4xx.o [1]
+TEMPERATURE_Data        0x20009074    0x10  Data  Lc  SensorTile_temperature.o [1]
+TEMPERATURE_SensorHandle
+                        0x2000904c    0x28  Data  Lc  SensorTile_temperature.o [1]
+TIM1_CC_IRQHandler      0x080269f9     0x6  Code  Gb  stm32l4xx_it.o [1]
+TIM4_IRQHandler         0x080269ed     0x6  Code  Gb  stm32l4xx_it.o [1]
+TIM5_IRQHandler         0x080269f3     0x6  Code  Gb  stm32l4xx_it.o [1]
+TIM_OC1_SetConfig       0x080123c9    0x84  Code  Lc  stm32l4xx_hal_tim.o [1]
+TIM_OC2_SetConfig       0x08012455    0x76  Code  Gb  stm32l4xx_hal_tim.o [1]
+TIM_OC3_SetConfig       0x080124d1    0x74  Code  Lc  stm32l4xx_hal_tim.o [1]
+TIM_OC4_SetConfig       0x08012545    0x58  Code  Lc  stm32l4xx_hal_tim.o [1]
+TIM_OC5_SetConfig       0x0801259d    0x56  Code  Lc  stm32l4xx_hal_tim.o [1]
+TIM_OC6_SetConfig       0x080125f3    0x58  Code  Lc  stm32l4xx_hal_tim.o [1]
+TargetBoardFeatures     0x20008efc    0x48  Data  Gb  TargetPlatform.o [1]
+TemporalMetaClassifier  0x0801a389   0x26e  Code  Lc  osx_motion_ar.o [6]
+TemporalMetaClassifier  0x0801b52d   0x1a8  Code  Lc  osx_motion_cp.o [7]
+TermCharHandle          0x20006778     0x2  Data  Lc  sensor_service.o [1]
+Term_Update             0x0800af63    0x60  Code  Gb  sensor_service.o [1]
+TimAudioDataHandle      0x20005e80    0x3c  Data  Gb  main.o [1]
+TimCCHandle             0x20005e08    0x3c  Data  Gb  main.o [1]
+TimEnvHandle            0x20005e44    0x3c  Data  Gb  main.o [1]
+Timer_Expired           0x080171e1    0x18  Code  Gb  gp_timer.o [1]
+Timer_Set               0x080171d3     0xe  Code  Gb  gp_timer.o [1]
+UpdateFWBlueMS          0x080128c1    0xd4  Code  Gb  OTA.o [1]
+UpdateMotionAR          0x2000602c     0x4  Data  Lc  main.o [1]
+UpdateMotionCP          0x20006030     0x4  Data  Lc  main.o [1]
+UpdateMotionGR          0x20006034     0x4  Data  Lc  main.o [1]
+UsageFault_Handler      0x080269e1     0x2  Code  Gb  stm32l4xx_it.o [1]
+UserFunctionForErasingFlash
+                        0x080127cd    0xa4  Code  Gb  TargetPlatform.o [1]
+UserFunctionForSavingFlash
+                        0x08012871    0x3c  Code  Gb  TargetPlatform.o [1]
+Write_IIC_Byte          0x0800f4b9    0x50  Code  Gb  oled.o [1]
+Write_IIC_Command       0x0800f509    0x92  Code  Gb  oled.o [1]
+Write_IIC_Data          0x0800f59b    0x92  Code  Gb  oled.o [1]
+_Close_all              0x08026929    0x58  Code  Gb  xcloseall.o [3]
+_EncodingSb_Mbtowc      0x080206d7    0x30  Code  Gb  xencoding_sb.o [3]
+_EncodingSb_Wctomb      0x080206bd    0x1a  Code  Gb  xencoding_sb.o [3]
+_Files                  0x20006b20    0x20  Data  Gb  xfiles.o [3]
+_Fofree                 0x08026801    0x78  Code  Gb  xfofind.o [3]
+_Fspos                  0x08026449    0xd6  Code  Gb  xfspos.o [3]
+_Fwprep                 0x0802669b    0xb6  Code  Gb  xfwprep.o [3]
+_IsdstStr               0x200066dc     0x4  Data  Gb  setlocale.o [3]
+_LitobSmall             0x080167bf    0xce  Code  Lc  xprintfsmall.o [3]
+_LocaleC_isspace        0x080204c9    0x14  Code  Gb  xlocale_c.o [3]
+_LocaleC_tolower        0x080204dd     0xc  Code  Gb  xlocale_c.o [3]
+_LocaleEncoding         0x080204b7     0xe  Code  Gb  setlocale.o [3]
+_LocaleForCat           0x080204a5    0x12  Code  Gb  setlocale.o [3]
+_LocaleReturnString     0x200066fc    0x50  Data  Lc  setlocale.o [3]
+_Locale_Profile         0x200066e0    0x1c  Data  Gb  setlocale.o [3]
+_Mbtowc                 0x0801dcfd    0x20  Code  Gb  xmbtowc.o [3]
+_Nnl                    0x080265d1     0xa  Code  Gb  xfgpos.o [3]
+_PrintfSmall            0x08016111   0x430  Code  Gb  xprintfsmall.o [3]
+_Prout                  0x08026b0b    0x16  Code  Gb  xprout.o [3]
+_PutcharsSmall          0x0801688d    0x2e  Code  Lc  xprintfsmall.o [3]
+_PutstrSmall            0x0801658d   0x228  Code  Lc  xprintfsmall.o [3]
+_SProut                 0x08009a7f     0xa  Code  Gb  xsprout.o [3]
+_TzoneStr               0x200066d8     0x4  Data  Gb  setlocale.o [3]
+_Wctomb                 0x0801f22d    0x1a  Code  Gb  xwctomb.o [3]
+__aeabi_cdcmpeq         0x0800a665          Code  Gb  DblCmpEq.o [4]
+__aeabi_cdcmple         0x0800a2dd          Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x08009c19          Code  Gb  DblCmpGe.o [4]
+__aeabi_d2f             0x08009b89          Code  Gb  DblToFlt.o [4]
+__aeabi_d2iz            0x0800a6f5          Code  Gb  DblToI32.o [4]
+__aeabi_dadd            0x08009ed1          Code  Gb  DblAdd.o [4]
+__aeabi_ddiv            0x08009c79          Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x0800a139          Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x08009fb9          Code  Gb  DblSub.o [4]
+__aeabi_errno_addr      0x0800acb1     0x6  Code  Gb  errno.o [3]
+__aeabi_f2d             0x08009a31          Code  Gb  FltToDbl.o [4]
+__aeabi_i2d             0x08009c49          Code  Gb  I32ToDbl.o [4]
+__aeabi_ldiv0           0x0802521d          Code  Gb  I64DivZer.o [10]
+__aeabi_ldivmod         0x080250e9          Code  Gb  I64DivMod.o [10]
+__aeabi_memclr          0x0800a7a9          Code  Gb  ABImemclr.o [10]
+__aeabi_memclr4         0x08015375          Code  Gb  ABImemclr4.o [10]
+__aeabi_memset          0x0800acbd          Code  Gb  ABImemset.o [10]
+__aeabi_memset4         0x0800a629          Code  Gb  ABImemset48.o [10]
+__aeabi_memset8         0x0800a629          Code  Gb  ABImemset48.o [10]
+__aeabi_ui2d            0x08009c5d          Code  Gb  I32ToDbl.o [4]
+__aeabi_uldivmod        0x0802512d          Code  Gb  I64DivMod.o [10]
+__cexit_closeall        0x08026aff          Code  Gb  cexit.o [10]
+__close                 0x080268f7    0x1a  Code  Gb  close.o [11]
+__cmain                 0x08026ad9          Code  Gb  cmain.o [10]
+__cstart_closeall       0x08026c74          Data  Gb  cstart_closeall.o [10]
+__data_GetMemChunk      0x08020725    0x2c  Code  Gb  xgetmemchunk.o [3]
+__dwrite                0x0802663b    0x1e  Code  Gb  dwrite.o [11]
+__exit                  0x08020751    0x14  Code  Gb  exit.o [11]
+__iar_Atan              0x0800aac1   0x158  Code  Gb  xatan.o [4]
+__iar_Dint              0x0801d44b    0x7a  Code  Gb  xdint.o [4]
+__iar_Dnorm             0x0801d4c5    0x42  Code  Gb  xdnorm.o [4]
+__iar_Dscale            0x080205a9   0x114  Code  Gb  xdscale.o [4]
+__iar_Dtest             0x0800aa81    0x30  Code  Gb  xdtest.o [4]
+__iar_Errno             0x20006b88     0x4  Data  Gb  errno.o [3]
+__iar_Exp               0x0801d5b9   0x2be  Code  Gb  xexp.o [4]
+__iar_FDnorm            0x0801d425    0x26  Code  Gb  xfdnorm.o [4]
+__iar_FLog              0x08014011   0x12a  Code  Gb  xflog.o [4]
+__iar_Lockfilelock      0x08026627     0x2  Code  Gb  xsyslock_nop.o [3]
+__iar_Logpoly           0x0801d509    0x76  Code  Gb  xlog.o [4]
+__iar_Mbcurmax          0x0801dd33     0xa  Code  Gb  xmbcurmax.o [3]
+__iar_Memchr            0x08018909          Code  Gb  memchr.o [10]
+__iar_Memset            0x0800acbd          Code  Gb  ABImemset.o [10]
+__iar_Memset4_word      0x0800a631          Code  Gb  ABImemset48.o [10]
+__iar_Memset8_word      0x0800a631          Code  Gb  ABImemset48.o [10]
+__iar_Memset_word       0x0800acc5          Code  Gb  ABImemset.o [10]
+__iar_Stderr            0x20006a10    0x40  Data  Gb  xfiles.o [3]
+__iar_Stdin             0x20006990    0x40  Data  Gb  xfiles.o [3]
+__iar_Stdout            0x200069d0    0x40  Data  Gb  xfiles.o [3]
+__iar_Stoul             0x08012ca9     0x4  Code  Gb  xstoul.o [3]
+__iar_Stoulx            0x08012b65   0x13e  Code  Gb  xstoul.o [3]
+__iar_Strchr            0x0801dd1d          Code  Gb  strchr.o [10]
+__iar_Unlockfilelock    0x08026629     0x2  Code  Gb  xsyslock_nop.o [3]
+__iar_close_ttio        0x08020765    0x2e  Code  Gb  iarttio.o [11]
+__iar_d2uiz             0x0800a721          Code  Gb  DblToI32.o [4]
+__iar_dadd              0x08009ee5          Code  Gb  DblAdd.o [4]
+__iar_data_init3        0x08026a61    0x28  Code  Gb  data_init.o [10]
+__iar_dlfree            0x0801ed13   0x510  Code  Gb  dlmalloc.o [3]
+__iar_dlib_perthread_access
+                        0x0800ad23     0x2  Code  Gb  xtls.o [3]
+__iar_dlmalloc          0x0801ea5d   0x2aa  Code  Gb  dlmalloc.o [3]
+__iar_dsub              0x08009fcd          Code  Gb  DblSub.o [4]
+__iar_dsubStart         0x08009fdf          Code  Gb  DblSub.o [4]
+__iar_edom              0x0800aa75          Code  Gb  iarEdom.o [10]
+__iar_floor             0x0800a695          Code  Gb  floor.o [4]
+__iar_floorl            0x0800a695          Code  Gb  floor.o [4]
+__iar_get_ttio          0x08020795    0x38  Code  Gb  iarttio.o [11]
+__iar_init_vfp          0x08026a89          Code  Gb  fpinit_M.o [4]
+__iar_lookup_ttioh      0x080207d1     0x8  Code  Gb  XShttio.o [3]
+__iar_lz77_init3        0x08026087   0x162  Code  Gb  lz77_init.o [10]
+__iar_program_start     0x08026b3d          Code  Gb  cstartup_M.o [10]
+__iar_sh_Discard        0x08026369    0x44  Code  Gb  XShHandles.o [3]
+__iar_sh_Move           0x080263b3    0x4c  Code  Gb  XShHandles.o [3]
+__iar_sh_Pos            0x080263ff    0x44  Code  Gb  XShHandles.o [3]
+__iar_sh_stdout         0x08026659    0x20  Code  Gb  iarwstd.o [11]
+__iar_sh_write          0x08026679    0x22  Code  Gb  iarwrite.o [11]
+__iar_sqrt              0x08009a99          Code  Gb  sqrt.o [4]
+__iar_ttio_handles      0x20006b78     0x8  Data  Lc  XShttio.o [3]
+__iar_ui2d              0x08009c61          Code  Gb  I32ToDbl.o [4]
+__iar_unaligned___aeabi_memcpy
+                        0x0800a5b1          Code  Gb  ABImemcpy_unaligned.o [10]
+__iar_unaligned___aeabi_memcpy4
+                        0x0800a5d1          Code  Gb  ABImemcpy_unaligned.o [10]
+__iar_unaligned___aeabi_memcpy8
+                        0x0800a5d1          Code  Gb  ABImemcpy_unaligned.o [10]
+__iar_unaligned_strcpy  0x0800a401          Code  Gb  strcpy_unaligned.o [10]
+__iar_vfp_asin          0x0800a5a1    0x10  Code  Gb  asin.o [4]
+__iar_vfp_atan          0x08020599    0x10  Code  Gb  atan.o [4]
+__iar_vfp_atan2         0x0800a3ed    0x14  Code  Gb  atan2.o [4]
+__iar_vfp_floor         0x0800a685          Code  Gb  floor.o [4]
+__iar_vfp_floorl        0x0800a685          Code  Gb  floor.o [4]
+__iar_vfp_fmax          0x0800a795    0x14  Code  Gb  fmax.o [4]
+__iar_vfp_pow           0x08014b3b    0x18  Code  Gb  pow.o [4]
+__iar_vfp_sqrt          0x08009a89          Code  Gb  sqrt.o [4]
+__iar_vfp_sqrtl         0x08009a89          Code  Gb  sqrt.o [4]
+__iar_vfp_trunc         0x080146a1    0x18  Code  Gb  trunc.o [4]
+__iar_zero_init3        0x08026a21    0x40  Code  Gb  zero_init3.o [10]
+__low_level_init        0x08026af3     0x4  Code  Gb  low_level_init.o [3]
+__lseek                 0x080265db    0x4c  Code  Gb  lseek.o [11]
+__vector_table          0x08000000          Data  Gb  startup_stm32l476xx.o [1]
+__write                 0x0802662b    0x10  Code  Gb  write.o [11]
+_call_main              0x08026ae5          Code  Gb  cmain.o [10]
+_exit                   0x08026afd          Code  Gb  cexit.o [10]
+_gm_                    0x200087fc   0x1d8  Data  Lc  dlmalloc.o [3]
+_libraries              0x20008c10    0xa8  Data  Lc  osxLibraryLocker100_CM4F_IAR.o [5]
+_main                   0x08026aef          Code  Gb  cmain.o [10]
+_numRegisteredLibs      0x20009304     0x1  Data  Lc  osxLibraryLocker100_CM4F_IAR.o [5]
+_reason                 0x20009306     0x2  Data  Lc  osxLibraryLocker100_CM4F_IAR.o [5]
+a                       0x0800ac70    0x40  Data  Lc  xatan.o [4]
+a1                      0x200025b0    0x28  Data  Lc  osx_motion_cp.o [7]
+a2                      0x20002600    0x28  Data  Lc  osx_motion_cp.o [7]
+a3                      0x20002650    0x28  Data  Lc  osx_motion_cp.o [7]
+a4                      0x200026a0    0x28  Data  Lc  osx_motion_cp.o [7]
+a5                      0x200026f0    0x28  Data  Lc  osx_motion_cp.o [7]
+aFilt1                  0x20005430    0x28  Data  Lc  osx_motion_ar.o [6]
+aFilt2                  0x20005480    0x28  Data  Lc  osx_motion_ar.o [6]
+a_dfsdm1ChannelHandle   0x200091a4    0x20  Data  Gb  stm32l4xx_hal_dfsdm.o [1]
+abort                   0x0802071d     0x6  Code  Gb  abort.o [3]
+acc_orientation         0x20004aa8     0x4  Data  Gb  osx_motion_fx.o [8]
+aci_gap_init_IDB04A1    0x080108b1    0x6c  Code  Gb  bluenrg_gap_aci.o [1]
+aci_gap_init_IDB05A1    0x0801083d    0x74  Code  Gb  bluenrg_gap_aci.o [1]
+aci_gap_set_auth_requirement
+                        0x080109e3    0x76  Code  Gb  bluenrg_gap_aci.o [1]
+aci_gap_set_discoverable
+                        0x0801091d    0xc6  Code  Gb  bluenrg_gap_aci.o [1]
+aci_gap_update_adv_data
+                        0x08010a59    0x5a  Code  Gb  bluenrg_gap_aci.o [1]
+aci_gatt_add_char       0x0800db3f    0xb2  Code  Gb  bluenrg_gatt_aci.o [1]
+aci_gatt_add_serv       0x0800dabb    0x84  Code  Gb  bluenrg_gatt_aci.o [1]
+aci_gatt_allow_read     0x0800dce9    0x46  Code  Gb  bluenrg_gatt_aci.o [1]
+aci_gatt_init           0x0800da81    0x3a  Code  Gb  bluenrg_gatt_aci.o [1]
+aci_gatt_update_char_value
+                        0x0800dbf1    0x7c  Code  Gb  bluenrg_gatt_aci.o [1]
+aci_gatt_write_charac_descriptor
+                        0x0800dc6d    0x7c  Code  Gb  bluenrg_gatt_aci.o [1]
+aci_hal_set_tx_power_level
+                        0x0801532d    0x48  Code  Gb  bluenrg_hal_aci.o [1]
+aci_l2cap_connection_parameter_update_request
+                        0x08012cfd    0x5c  Code  Gb  bluenrg_l2cap_aci.o [1]
+actualCal               0x20005d28    0x18  Data  Gb  osx_motion_fx.o [8]
+asin                    0x0800a47d   0x10e  Code  Gb  asin.o [4]
+atan                    0x080204e9    0x9a  Code  Gb  atan.o [4]
+atan2                   0x0800a30d    0xd0  Code  Gb  atan2.o [4]
+b1                      0x20002588    0x28  Data  Lc  osx_motion_cp.o [7]
+b2                      0x200025d8    0x28  Data  Lc  osx_motion_cp.o [7]
+b3                      0x20002628    0x28  Data  Lc  osx_motion_cp.o [7]
+b4                      0x20002678    0x28  Data  Lc  osx_motion_cp.o [7]
+b5                      0x200026c8    0x28  Data  Lc  osx_motion_cp.o [7]
+bFilt1                  0x20005408    0x28  Data  Lc  osx_motion_ar.o [6]
+bFilt2                  0x20005458    0x28  Data  Lc  osx_motion_ar.o [6]
+bdaddr                  0x200092c8     0x8  Data  Gb  main.o [1]
+breath                  0x20006784     0x4  Data  Lc  sensor_service.o [1]
+bvStat                  0x200092dc     0x1  Data  Gb  AudioBV_Manager.o [1]
+calibrationRunning      0x20005de4     0x4  Data  Lc  osx_motion_fx.o [8]
+compass_API_ForceReCalibration
+                        0x08001071    0x28  Code  Lc  osx_motion_fx.o [8]
+compass_API_Init        0x08000ec7    0x3c  Code  Lc  osx_motion_fx.o [8]
+compass_API_IsCalibrated
+                        0x0800105d    0x14  Code  Lc  osx_motion_fx.o [8]
+compass_API_Run         0x08000f2d   0x130  Code  Lc  osx_motion_fx.o [8]
+compass_API_SaveAcc     0x08000f03    0x12  Code  Lc  osx_motion_fx.o [8]
+compass_API_SaveMag     0x08000f15    0x18  Code  Lc  osx_motion_fx.o [8]
+connected               0x20006780     0x4  Data  Gb  sensor_service.o [1]
+connection_handle       0x2000677c     0x2  Data  Lc  sensor_service.o [1]
+digits                  0x08012cac    0x28  Data  Lc  xstoul.o [3]
+discardedCount          0x200089f8     0x4  Data  Lc  MotionFX_Manager.o [1]
+eCompass_Offset         0x08000315   0xbb2  Code  Lc  osx_motion_fx.o [8]
+eCompass_Sqrt           0x0800029d    0x78  Code  Lc  osx_motion_fx.o [8]
+ebuf                    0x20008f64    0x50  Data  Lc  xfiles.o [3]
+eml_MA_detect_value     0x20004b2c     0x4  Data  Gb  osx_motion_fx.o [8]
+eml_dacc_meas           0x20004af4     0x4  Data  Gb  osx_motion_fx.o [8]
+eml_dgyro_meas          0x20004af8     0x4  Data  Gb  osx_motion_fx.o [8]
+eml_dmag_meas           0x20004af0     0x4  Data  Gb  osx_motion_fx.o [8]
+eml_kalman_v_cpy        0x20004afc    0x30  Data  Gb  osx_motion_fx.o [8]
+eml_mR                  0x20004b30     0x4  Data  Gb  osx_motion_fx.o [8]
+eml_mR_cpy              0x20004b34     0x4  Data  Gb  osx_motion_fx.o [8]
+eml_mag_cpy             0x20004a84     0xc  Data  Gb  osx_motion_fx.o [8]
+enable6X                0x20004ae4     0x4  Data  Gb  osx_motion_fx.o [8]
+enable9X                0x20004ae8     0x4  Data  Gb  osx_motion_fx.o [8]
+exit                    0x08026af7     0x4  Code  Gb  exit.o [3]
+fclose                  0x0802687d    0x7a  Code  Gb  fclose.o [3]
+fflush                  0x08026597    0x34  Code  Gb  fflush.o [3]
+fflushOne               0x08026521    0x76  Code  Lc  fflush.o [3]
+findDirection           0x08001651   0x25c  Code  Lc  osx_motion_fx.o [8]
+floor                   0x0800a695          Code  Gb  floor.o [4]
+floorl                  0x0800a695          Code  Gb  floor.o [4]
+fmax                    0x0800a741    0x4e  Code  Gb  fmax.o [4]
+fputc                   0x08026981    0x56  Code  Gb  fputc.o [3]
+fseek                   0x08026751    0x22  Code  Gb  fseek.o [3]
+getBlueNRGVersion       0x08012d59    0x50  Code  Gb  bluenrg_utils.o [1]
+getCalibrationData      0x080015cb    0x30  Code  Lc  osx_motion_fx.o [8]
+gyro_orientation        0x20004aac     0x4  Data  Gb  osx_motion_fx.o [8]
+hBLUEVOICE              0x20008aac    0x5c  Data  Lc  osx_bluevoice.o [5]
+hBV_ADPCM_Decode        0x200092d0     0x8  Data  Lc  osx_bluevoice.o [5]
+hBV_ADPCM_Encode        0x20009284     0x8  Data  Lc  osx_bluevoice.o [5]
+haudio_in_dfsdmchannel  0x20002e08    0xe0  Data  Gb  SensorTile_audio_in.o [1]
+haudio_in_dfsdmfilter   0x20002cb8   0x150  Data  Gb  SensorTile_audio_in.o [1]
+hciReadPacketBuffer     0x2000810c   0x2bc  Data  Lc  hci.o [1]
+hciReadPktPool          0x200080fc     0x8  Data  Gb  hci.o [1]
+hciReadPktRxQueue       0x20008104     0x8  Data  Gb  hci.o [1]
+hci_le_read_local_version
+                        0x08010705    0x76  Code  Gb  hci.o [1]
+hci_le_set_random_address
+                        0x080107df    0x56  Code  Gb  hci.o [1]
+hci_le_set_scan_resp_data
+                        0x0801077b    0x64  Code  Gb  hci.o [1]
+hci_send_req            0x0801053d   0x1c8  Code  Gb  hci.o [1]
+hdma_dfsdmReg_FLT       0x20003b28   0x120  Data  Gb  SensorTile_audio_in.o [1]
+iDataIN                 0x200089d4    0x24  Data  Gb  MotionFX_Manager.o [1]
+iDataOUT                0x20008a00    0x70  Data  Gb  MotionFX_Manager.o [1]
+iKnobs                  0x20008a70    0x3c  Data  Lc  MotionFX_Manager.o [1]
+iNemoEngine_API_Get_Lib_Version
+                        0x080024b1    0x22  Code  Lc  osx_motion_fx.o [8]
+iNemoEngine_API_Propagate
+                        0x080021b5   0x150  Code  Lc  osx_motion_fx.o [8]
+iNemoEngine_API_Update  0x08001fe5   0x1c6  Code  Lc  osx_motion_fx.o [8]
+iNemoEngine_API_calc_bgias_th
+                        0x0800230d   0x17e  Code  Lc  osx_motion_fx.o [8]
+iNemoEngine_API_enable_6X
+                        0x08001ded    0x4e  Code  Lc  osx_motion_fx.o [8]
+iNemoEngine_API_enable_9X
+                        0x08001e3b    0x4a  Code  Lc  osx_motion_fx.o [8]
+iNemoEngine_API_getGbias
+                        0x08001f39    0xa4  Code  Lc  osx_motion_fx.o [8]
+iNemoEngine_API_getKnobs
+                        0x08001d19    0xb2  Code  Lc  osx_motion_fx.o [8]
+iNemoEngine_API_get_status_6X
+                        0x08001dcb     0xc  Code  Lc  osx_motion_fx.o [8]
+iNemoEngine_API_get_status_9X
+                        0x08001ddd     0xc  Code  Lc  osx_motion_fx.o [8]
+iNemoEngine_API_initialize
+                        0x08001a55   0x1ca  Code  Lc  osx_motion_fx.o [8]
+iNemoEngine_API_setGbias
+                        0x08001e99    0x9c  Code  Lc  osx_motion_fx.o [8]
+iNemoEngine_API_setKnobs
+                        0x08001c1f    0xec  Code  Lc  osx_motion_fx.o [8]
+iNemoEngine_DataIn_6X   0x20004930    0xf8  Data  Gb  osx_motion_fx.o [8]
+iNemoEngine_DataIn_9X   0x20004838    0xf8  Data  Gb  osx_motion_fx.o [8]
+iNemo_default_settings  0x080036ad   0x186  Code  Lc  osx_motion_fx.o [8]
+iNemo_default_settings_6X
+                        0x0800499d   0x17a  Code  Lc  osx_motion_fx.o [8]
+iNemo_propagate         0x080024f9   0x83c  Code  Lc  osx_motion_fx.o [8]
+iNemo_propagate_6X      0x08003849   0x840  Code  Lc  osx_motion_fx.o [8]
+iNemo_quat2heading      0x080018ad   0x1a0  Code  Lc  osx_motion_fx.o [8]
+iNemo_setOrientation    0x08003381   0x32c  Code  Lc  osx_motion_fx.o [8]
+iNemo_setOrientation_6X
+                        0x08004671   0x32c  Code  Lc  osx_motion_fx.o [8]
+iNemo_setOrientation_Acc
+                        0x0801a155   0x10a  Code  Lc  osx_motion_ar.o [6]
+iNemo_setOrientation_Acc
+                        0x0801b34d    0xf0  Code  Lc  osx_motion_cp.o [7]
+iNemo_update            0x08002d61   0x54c  Code  Lc  osx_motion_fx.o [8]
+iNemo_update_6X         0x080040b9   0x49a  Code  Lc  osx_motion_fx.o [8]
+init_mparams            0x0801dd57    0x32  Code  Lc  dlmalloc.o [3]
+init_top                0x0801dd89    0x34  Code  Lc  dlmalloc.o [3]
+internal_Pow            0x080146b9   0x478  Code  Lc  pow.o [4]
+ipKnobs                 0x200089fc     0x4  Data  Lc  MotionFX_Manager.o [1]
+isCal                   0x20005ee0     0x1  Data  Lc  main.o [1]
+isspace                 0x080188e1    0x14  Code  Gb  isxxx.o [3]
+known_OsxLic            0x20005f00   0x110  Data  Gb  main.o [1]
+led_toggle_count        0x200092b4     0x4  Data  Lc  AudioBV_Manager.o [1]
+list_get_size           0x0801719d    0x36  Code  Gb  ble_list.o [1]
+list_init_head          0x080170e5     0x6  Code  Gb  ble_list.o [1]
+list_insert_head        0x08017101    0x18  Code  Gb  ble_list.o [1]
+list_insert_tail        0x08017119    0x18  Code  Gb  ble_list.o [1]
+list_is_empty           0x080170eb    0x16  Code  Gb  ble_list.o [1]
+list_remove_head        0x08017131    0x36  Code  Gb  ble_list.o [1]
+list_remove_tail        0x08017167    0x36  Code  Gb  ble_list.o [1]
+lnbias                  0x08014b58   0x420  Data  Lc  pow.o [4]
+m_b_interp1q_constrain  0x08004b29    0xd2  Code  Lc  osx_motion_fx.o [8]
+m_d_spMult_1            0x08009645    0xba  Code  Lc  osx_motion_fx.o [8]
+m_interp1q_constrain    0x08004bfb    0xd2  Code  Lc  osx_motion_fx.o [8]
+m_kalman_3gyro          0x08004eb9  0x3a5e  Code  Lc  osx_motion_fx.o [8]
+m_median                0x0800891d   0x274  Code  Lc  osx_motion_fx.o [8]
+m_mldivide              0x08008b91   0x25c  Code  Lc  osx_motion_fx.o [8]
+m_norm_eml              0x08000189    0x3c  Code  Lc  osx_motion_fx.o [8]
+m_q2dcm_eml             0x080001c5    0xd8  Code  Lc  osx_motion_fx.o [8]
+m_q2ypr2_eml            0x08008f17    0xca  Code  Gb  osx_motion_fx.o [8]
+m_qmult_eml             0x08008fe1    0xa8  Code  Lc  osx_motion_fx.o [8]
+m_rt_atan2f_snf         0x08008ded   0x12a  Code  Lc  osx_motion_fx.o [8]
+m_slopeFilter           0x08004ccd   0x1a4  Code  Lc  osx_motion_fx.o [8]
+magOffset               0x20005df0    0x18  Data  Gb  main.o [1]
+mag_orientation         0x20004ab0     0x4  Data  Gb  osx_motion_fx.o [8]
+main                    0x0800dd31   0x75e  Code  Gb  main.o [1]
+memchr                  0x08018909          Code  Gb  memchr.o [10]
+mparams                 0x2000925c    0x18  Data  Lc  dlmalloc.o [3]
+ndigs                   0x08012cd4    0x28  Data  Lc  xstoul.o [3]
+normalize_input_data    0x20004ab8     0x1  Data  Gb  osx_motion_fx.o [8]
+normalize_input_data_6X
+                        0x20004aba     0x1  Data  Gb  osx_motion_fx.o [8]
+num_byte_sent           0x2000604c     0x2  Data  Lc  main.o [1]
+obuf                    0x20008fb4    0x50  Data  Lc  xfiles.o [3]
+osxMFX_knobs_6X         0x2000476c    0x54  Data  Gb  osx_motion_fx.o [8]
+osxMFX_knobs_9X         0x20004718    0x54  Data  Gb  osx_motion_fx.o [8]
+osxMFX_output_6X        0x2000461c    0xfc  Data  Gb  osx_motion_fx.o [8]
+osxMFX_output_9X        0x20004520    0xfc  Data  Gb  osx_motion_fx.o [8]
+osx_BlueVoice_APIs      0x08011dec    0x48  Data  Lc  osx_bluevoice.o [5]
+osx_BlueVoice_AttributeModified_CB
+                        0x08011c8b    0x2e  Code  Gb  osx_bluevoice.o [5]
+osx_BlueVoice_AudioIn   0x08011bf3    0x2a  Code  Gb  osx_bluevoice.o [5]
+osx_BlueVoice_ConnectionComplete_CB
+                        0x08011c43    0x26  Code  Gb  osx_bluevoice.o [5]
+osx_BlueVoice_DisconnectionComplete_CB
+                        0x08011c69    0x22  Code  Gb  osx_bluevoice.o [5]
+osx_BlueVoice_GetLibVersion
+                        0x08011cb9    0x26  Code  Gb  osx_bluevoice.o [5]
+osx_BlueVoice_Initialize
+                        0x08011b3b    0x4a  Code  Gb  osx_bluevoice.o [5]
+osx_BlueVoice_IsProfileConfigured
+                        0x08011bab    0x22  Code  Gb  osx_bluevoice.o [5]
+osx_BlueVoice_SendData  0x08011c1d    0x26  Code  Gb  osx_bluevoice.o [5]
+osx_BlueVoice_SetConfig
+                        0x08011b85    0x26  Code  Gb  osx_bluevoice.o [5]
+osx_BlueVoice_SetTxHandle
+                        0x08011bcd    0x26  Code  Gb  osx_bluevoice.o [5]
+osx_LibLocker_Authenticate
+                        0x0800a8b3    0xc0  Code  Gb  osxLibraryLocker100_CM4F_IAR.o [5]
+osx_LibLocker_Decrypt16
+                        0x0800a801    0x4e  Code  Lc  osxLibraryLocker100_CM4F_IAR.o [5]
+osx_LibLocker_Decrypt32
+                        0x0800a7b1    0x50  Code  Lc  osxLibraryLocker100_CM4F_IAR.o [5]
+osx_LibLocker_RegisterLicense
+                        0x0800a84f    0x64  Code  Gb  osxLibraryLocker100_CM4F_IAR.o [5]
+osx_LibLocker_SetHandle
+                        0x0800aa21    0x4e  Code  Gb  osxLibraryLocker100_CM4F_IAR.o [5]
+osx_LibLocker_UnwrapAPIs
+                        0x0800a979    0x82  Code  Gb  osxLibraryLocker100_CM4F_IAR.o [5]
+osx_MAR_CoreAPI_GetLibVersion
+                        0x0801a363    0x24  Code  Lc  osx_motion_ar.o [6]
+osx_MAR_CoreAPI_Initialize
+                        0x0801a279     0x4  Code  Lc  osx_motion_ar.o [6]
+osx_MAR_CoreAPI_SetOrientation_Acc
+                        0x0801a361     0x2  Code  Lc  osx_motion_ar.o [6]
+osx_MAR_CoreAPI_Update  0x0801a27d    0xb4  Code  Lc  osx_motion_ar.o [6]
+osx_MCP_CoreAPI_GetLibVersion
+                        0x0801b507    0x26  Code  Lc  osx_motion_cp.o [7]
+osx_MCP_CoreAPI_Initialize
+                        0x0801b43d     0x4  Code  Lc  osx_motion_cp.o [7]
+osx_MCP_CoreAPI_SetOrientation_Acc
+                        0x0801b505     0x2  Code  Lc  osx_motion_cp.o [7]
+osx_MCP_CoreAPI_Update  0x0801b441    0xb2  Code  Lc  osx_motion_cp.o [7]
+osx_MGR_CoreAPI_GetLibVersion
+                        0x0801d2db    0x24  Code  Lc  osx_motion_gr.o [9]
+osx_MGR_CoreAPI_Initialize
+                        0x0801d225     0x4  Code  Lc  osx_motion_gr.o [9]
+osx_MGR_CoreAPI_SetOrientation_Acc
+                        0x0801d2d9     0x2  Code  Lc  osx_motion_gr.o [9]
+osx_MGR_CoreAPI_Update  0x0801d229    0xb0  Code  Lc  osx_motion_gr.o [9]
+osx_MotionAR_GetLibVersion
+                        0x0801a687    0x26  Code  Gb  osx_motion_ar.o [6]
+osx_MotionAR_Initialize
+                        0x0801a5f7    0x46  Code  Gb  osx_motion_ar.o [6]
+osx_MotionAR_SetOrientation_Acc
+                        0x0801a663    0x24  Code  Gb  osx_motion_ar.o [6]
+osx_MotionAR_Update     0x0801a63d    0x26  Code  Gb  osx_motion_ar.o [6]
+osx_MotionCP_GetLibVersion
+                        0x0801b775    0x26  Code  Gb  osx_motion_cp.o [7]
+osx_MotionCP_Initialize
+                        0x0801b6dd    0x46  Code  Gb  osx_motion_cp.o [7]
+osx_MotionCP_SetOrientation_Acc
+                        0x0801b749    0x24  Code  Gb  osx_motion_cp.o [7]
+osx_MotionCP_Update     0x0801b723    0x26  Code  Gb  osx_motion_cp.o [7]
+osx_MotionFX_compass_forceReCalibration
+                        0x0800995f    0x26  Code  Gb  osx_motion_fx.o [8]
+osx_MotionFX_compass_init
+                        0x08009891    0x26  Code  Gb  osx_motion_fx.o [8]
+osx_MotionFX_compass_isCalibrated
+                        0x08009937    0x28  Code  Gb  osx_motion_fx.o [8]
+osx_MotionFX_compass_run
+                        0x0800990f    0x28  Code  Gb  osx_motion_fx.o [8]
+osx_MotionFX_compass_saveAcc
+                        0x080098b7    0x2c  Code  Gb  osx_motion_fx.o [8]
+osx_MotionFX_compass_saveMag
+                        0x080098e3    0x2c  Code  Gb  osx_motion_fx.o [8]
+osx_MotionFX_enable_6X  0x0800979b    0x24  Code  Gb  osx_motion_fx.o [8]
+osx_MotionFX_enable_9X  0x080097c5    0x24  Code  Gb  osx_motion_fx.o [8]
+osx_MotionFX_getCalibrationData
+                        0x08009985    0x24  Code  Gb  osx_motion_fx.o [8]
+osx_MotionFX_getKnobs   0x08009777    0x24  Code  Gb  osx_motion_fx.o [8]
+osx_MotionFX_getLibVersion
+                        0x0800986b    0x26  Code  Gb  osx_motion_fx.o [8]
+osx_MotionFX_initialize
+                        0x0800970d    0x46  Code  Gb  osx_motion_fx.o [8]
+osx_MotionFX_propagate  0x08009829    0x42  Code  Gb  osx_motion_fx.o [8]
+osx_MotionFX_setCalibrationData
+                        0x080099a9    0x24  Code  Gb  osx_motion_fx.o [8]
+osx_MotionFX_setKnobs   0x08009753    0x24  Code  Gb  osx_motion_fx.o [8]
+osx_MotionFX_update     0x080097e9    0x40  Code  Gb  osx_motion_fx.o [8]
+osx_MotionGR_GetLibVersion
+                        0x0801d395    0x26  Code  Gb  osx_motion_gr.o [9]
+osx_MotionGR_Initialize
+                        0x0801d2ff    0x46  Code  Gb  osx_motion_gr.o [9]
+osx_MotionGR_SetOrientation_Acc
+                        0x0801d371    0x24  Code  Gb  osx_motion_gr.o [9]
+osx_MotionGR_Update     0x0801d345    0x26  Code  Gb  osx_motion_gr.o [9]
+osx_bv_license          0x2000908c    0x30  Data  Gb  AudioBV_Manager.o [1]
+osx_bvlib_api           0x200092f0     0x4  Data  Lc  osx_bluevoice.o [5]
+osx_mar_lib             0x200092f8     0x4  Data  Lc  osx_motion_ar.o [6]
+osx_mar_license         0x200090bc    0x30  Data  Gb  MotionAR_Manager.o [1]
+osx_mcp_lib             0x200092fc     0x4  Data  Lc  osx_motion_cp.o [7]
+osx_mcp_license         0x200090ec    0x30  Data  Gb  MotionCP_Manager.o [1]
+osx_mfx_lib             0x200092f4     0x4  Data  Lc  osx_motion_fx.o [8]
+osx_mfx_license         0x2000911c    0x30  Data  Gb  MotionFX_Manager.o [1]
+osx_mgr_lib             0x20009300     0x4  Data  Lc  osx_motion_gr.o [9]
+osx_mgr_license         0x2000914c    0x30  Data  Gb  MotionGR_Manager.o [1]
+osx_motion_ar_core      0x0801a6e4    0x10  Data  Lc  osx_motion_ar.o [6]
+osx_motion_cp_core      0x0801b7dc    0x10  Data  Lc  osx_motion_cp.o [7]
+osx_motion_fx_core      0x080099e0    0x50  Data  Lc  osx_motion_fx.o [8]
+osx_motion_gr_core      0x0801d414    0x10  Data  Lc  osx_motion_gr.o [9]
+pFlash                  0x20009224    0x1c  Data  Gb  stm32l4xx_hal_flash.o [1]
+prepend_alloc           0x0801ddbd   0x36c  Code  Lc  dlmalloc.o [3]
+printf                  0x08025b61    0x24  Code  Gb  printf.o [3]
+puint8_RW_MetaData      0x2000662c     0x4  Data  Lc  MetaDataManager.o [1]
+putchar                 0x08026b21     0xc  Code  Gb  putchar.o [3]
+remove                  0x08026911    0x16  Code  Gb  remove.o [11]
+rotAcc                  0x20004a3c     0xc  Data  Lc  osx_motion_fx.o [8]
+rotAcc                  0x2000928c     0xc  Data  Lc  osx_motion_ar.o [6]
+rotAcc                  0x20009298     0xc  Data  Lc  osx_motion_cp.o [7]
+rotAcc6X                0x20004a60     0xc  Data  Gb  osx_motion_fx.o [8]
+rotGyro                 0x20004a54     0xc  Data  Lc  osx_motion_fx.o [8]
+rotGyro6X               0x20004a78     0xc  Data  Gb  osx_motion_fx.o [8]
+rotMag                  0x20004a48     0xc  Data  Lc  osx_motion_fx.o [8]
+rotMag6X                0x20004a6c     0xc  Data  Gb  osx_motion_fx.o [8]
+rotVect                 0x080032bd    0xc2  Code  Lc  osx_motion_fx.o [8]
+rotVect_6X              0x080045ad    0xc2  Code  Gb  osx_motion_fx.o [8]
+rtInfF                  0x20004ac0     0x4  Data  Lc  osx_motion_fx.o [8]
+rtMinusInfF             0x20004ac4     0x4  Data  Lc  osx_motion_fx.o [8]
+rtNaN                   0x20003c48     0x8  Data  Lc  osx_motion_fx.o [8]
+runCal                  0x20004aec     0x4  Data  Gb  osx_motion_fx.o [8]
+sFileInfo               0x20008e7c    0x80  Data  Lc  XShHandles.o [3]
+segment_holding         0x0801dd3d    0x1a  Code  Lc  dlmalloc.o [3]
+sensitivity             0x20005ee4     0x4  Data  Gb  main.o [1]
+sensitivity_Mul         0x20005ee8     0x4  Data  Gb  main.o [1]
+setCalibrationData      0x08001605    0x4c  Code  Lc  osx_motion_fx.o [8]
+setConnectable          0x0800bd8d   0x114  Code  Gb  sensor_service.o [1]
+set_connectable         0x20006758     0x1  Data  Gb  sensor_service.o [1]
+sp                      0x20003c50   0x8d0  Data  Gb  osx_motion_fx.o [8]
+sp6x                    0x20004b38   0x8d0  Data  Gb  osx_motion_fx.o [8]
+sprintf                 0x0800f37d    0x34  Code  Gb  sprintf.o [3]
+sqrt                    0x08009a99          Code  Gb  sqrt.o [4]
+sqrtl                   0x08009a99          Code  Gb  sqrt.o [4]
+startCalibration        0x20005dc9     0x1  Data  Lc  osx_motion_fx.o [8]
+start_automatic_gbias_calculation
+                        0x20004ac8     0x4  Data  Gb  osx_motion_fx.o [8]
+stdDevAccX              0x20005d10     0x8  Data  Lc  osx_motion_fx.o [8]
+stdDevAccY              0x20005d18     0x8  Data  Lc  osx_motion_fx.o [8]
+stdDevAccZ              0x20005d20     0x8  Data  Lc  osx_motion_fx.o [8]
+strchr                  0x0801dd1d          Code  Gb  strchr.o [10]
+strlen                  0x0800a445          Code  Gb  strlen.o [10]
+strncmp                 0x08012b3d    0x28  Code  Gb  strncmp.o [3]
+sys_alloc               0x0801e129   0x386  Code  Lc  dlmalloc.o [3]
+tmalloc_large           0x0801e4bd   0x390  Code  Lc  dlmalloc.o [3]
+tmalloc_small           0x0801e84d   0x210  Code  Lc  dlmalloc.o [3]
+tolower                 0x080188f5    0x14  Code  Gb  tolower.o [3]
+true_vector_mag         0x20005de0     0x4  Data  Lc  osx_motion_fx.o [8]
+uhCCR4_Val              0x20005efc     0x4  Data  Gb  main.o [1]
+uint64_MetaDataVector   0x20006b90  0x1000  Data  Lc  MetaDataManager.o [1]
+uwTick                  0x200092e4     0x4  Data  Gb  stm32l4xx_hal.o [1]
+v                       0x20005d40    0x10  Data  Lc  osx_motion_fx.o [8]
+vArray                  0x200059f0   0x320  Data  Lc  osx_motion_fx.o [8]
+vGoodNum                0x20005dd2     0x2  Data  Gb  osx_motion_fx.o [8]
+vGoodX                  0x20005dd4     0x4  Data  Lc  osx_motion_fx.o [8]
+vGoodY                  0x20005dd8     0x4  Data  Lc  osx_motion_fx.o [8]
+vGoodZ                  0x20005ddc     0x4  Data  Lc  osx_motion_fx.o [8]
+vOff                    0x20005dc8     0x1  Data  Lc  osx_motion_fx.o [8]
+v_dfsdm1ChannelCounter  0x200091a0     0x4  Data  Gb  stm32l4xx_hal_dfsdm.o [1]
+
+
+[1] = D:\Personal\Desktop\BlueMicrosystem2_V2.2\Projects\Multi\Applications\BlueMicrosystem2\EWARM\STM32L476RG-SensorTile\STM32L476RG_SENSORTILE\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tls.a
+[5] = osxBlueVoice200_CM4F_IAR_ot.a
+[6] = osxMotionAR120_CM4F_IAR_ot.a
+[7] = osxMotionCP100_CM4F_IAR_ot.a
+[8] = osxMotionFX107_CM4_IAR_ot.a
+[9] = osxMotionGR100_CM4F_IAR_ot.a
+[10] = rt7M_tl.a
+[11] = shb_l.a
+
+  158 406 bytes of readonly  code memory
+    2 408 bytes of readonly  data memory
+   54 030 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
